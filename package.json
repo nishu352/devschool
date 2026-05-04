@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run dev:web\" \"npm run dev:api\"",
-    "dev:web": "vite",
-    "dev:api": "node --watch server/index.js",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "node server/index.js"
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "dev:web": "npm run dev --prefix frontend",
+    "dev:api": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "lint": "npm run lint --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
@@ -37,7 +37,7 @@
     "vite": "^8.0.10"
   },
   "description": "DevGuru AI-powered coding learning PWA.",
-  "main": "server/index.js",
+  "main": "backend/src/server.js",
   "keywords": [],
   "author": "",
   "license": "ISC"

@@ -2,18 +2,24 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Flame, Timer, Trophy } from 'lucide-react'
 import { useApp } from '../context/AppContext'
+import { t } from '../data/i18n'
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000'
 
 export default function DashboardPage() {
   const { state, actions } = useApp()
+  const language = state.language
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     async function loadPlan() {
       setLoading(true)
       try {
-        const response = await fetch(`${API_BASE}/api/daily-plan`)
+        const query = new URLSearchParams({
+          level: state.learningLevel || 'beginner',
+          language: state.language || 'en',
+        })
+        const response = await fetch(`${API_BASE}/api/daily-plan?${query.toString()}`)
         const plan = await response.json()
         actions.refreshDailyPlan(plan)
       } finally {
@@ -21,38 +27,43 @@ export default function DashboardPage() {
       }
     }
     loadPlan()
-  }, [actions])
+  }, [actions, state.learningLevel, state.language])
 
   return (
     <section className="space-y-4">
       <header>
-        <h2 className="text-2xl font-bold">Daily Learning Dashboard</h2>
+        <h2 className="text-2xl font-bold">{t(language, 'continueLearning')}</h2>
         <p className="text-sm text-slate-600 dark:text-slate-300">
-          {loading ? 'Refreshing your daily track...' : 'Your mission for today.'}
+          {loading ? `${t(language, 'loading')}` : t(language, 'markChallenge')}
         </p>
       </header>
 
       <div className="grid gap-3 md:grid-cols-2">
-        <Card title="Today Lesson" value={state.dailyPlan.lesson} />
-        <Card title="Practice Task" value={state.dailyPlan.exercise} />
-        <Card title="Quiz Pending" value={state.dailyPlan.quiz} />
-        <Card title="Mini Project" value={state.dailyPlan.miniProject} />
+        <Card title={t(language, 'chapterLabel')} value={state.dailyPlan.lesson} />
+        <Card title={t(language, 'practice')} value={state.dailyPlan.exercise} />
+        <Card title={t(language, 'chapterQuiz')} value={state.dailyPlan.quiz} />
+        <Card title={t(language, 'projects')} value={state.dailyPlan.miniProject} />
       </div>
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <Stat icon={Flame} label="Current Streak" value={`${state.streak} days`} />
-        <Stat icon={Trophy} label="Progress" value={`${state.progress}%`} />
-        <Stat icon={Timer} label="Study Hours" value={`${state.studyHours} hrs`} />
+        <Stat icon={Flame} label={t(language, 'practiceStreak')} value={`${state.streak} ${t(language, 'days')}`} />
+        <Stat icon={Trophy} label={t(language, 'skillPercentage')} value={`${state.progress}%`} />
+        <Stat icon={Timer} label={t(language, 'studyHours')} value={`${state.studyHours} hrs`} />
+      </div>
+      <div className="grid gap-3 sm:grid-cols-3">
+        <Stat icon={Trophy} label={t(language, 'myPoints')} value={`${state.studyPoints}`} />
+        <Stat icon={Flame} label={t(language, 'xp')} value={`${state.xp}`} />
+        <Stat icon={Timer} label={t(language, 'practiceStreak')} value={`${state.streak} ${t(language, 'days')}`} />
       </div>
 
       <div className="rounded-2xl bg-slate-100 p-4 dark:bg-slate-800">
-        <h3 className="font-semibold">Quick Actions</h3>
+        <h3 className="font-semibold">{t(language, 'continueLearning')}</h3>
         <div className="mt-3 grid gap-2 sm:grid-cols-2">
-          <QuickButton to="/learn" text="Continue Learning" />
-          <QuickButton to="/practice" text="Open Practice Lab" />
-          <QuickButton to="/tutor" text="Ask AI Tutor" />
-          <QuickButton to="/stats" text="View Stats" />
-          <QuickButton to="/settings" text="Set Reminders" />
+          <QuickButton to="/learn" text={t(language, 'continueLearning')} />
+          <QuickButton to="/practice" text={t(language, 'practice')} />
+          <QuickButton to="/tutor" text={t(language, 'tutor')} />
+          <QuickButton to="/stats" text={t(language, 'skillPercentage')} />
+          <QuickButton to="/settings" text={t(language, 'settings')} />
         </div>
       </div>
     </section>
