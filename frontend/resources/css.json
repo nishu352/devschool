@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "border-spacing",
+      "overflow: hidden",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "outline",
+      "overflow: hidden",
+      "display",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "box-sizing: border-box",
+      "outline",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 4,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "outline",
+      "border-spacing",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "box-sizing: border-box",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "display",
+      "outline",
+      "box-sizing: border-box",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "padding",
+      "display",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "outline",
+      "display",
+      "margin",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "outline",
+      "display",
+      "padding",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "overflow: hidden",
+      "outline",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "outline",
+      "display",
+      "overflow: hidden",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "border-spacing",
+      "display",
+      "margin",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "overflow",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "padding",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "margin",
+      "display",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "overflow: hidden"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "outline",
+      "display",
+      "padding",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "margin",
+      "display",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "margin"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "margin",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "overflow: hidden",
+      "outline",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "display",
+      "overflow"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 23,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "margin"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "margin"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "overflow",
+      "outline",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "display",
+      "margin",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "display",
+      "outline",
+      "box-sizing: border-box"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "outline",
+      "box-sizing: border-box",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "padding",
+      "border-spacing",
+      "outline",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 31,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "box-sizing: border-box",
+      "outline",
+      "display",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 32,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "border-spacing",
+      "overflow: hidden",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 33,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "display",
+      "overflow",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 34,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "overflow",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "overflow: hidden"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 36,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "overflow",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "box-sizing: border-box",
+      "outline",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 38,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "overflow: hidden"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 39,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "display",
+      "box-sizing: border-box"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 40,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "margin",
+      "border-spacing",
+      "outline",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "outline",
+      "overflow",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "box-sizing: border-box",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "overflow",
+      "outline",
+      "display",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 44,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "margin",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "padding",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "padding",
+      "display",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 47,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "overflow",
+      "border-spacing",
+      "display",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 48,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "overflow: hidden",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 49,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "outline",
+      "display",
+      "border-spacing",
+      "margin"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 50,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "overflow",
+      "display",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 51,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "outline",
+      "display",
+      "border-spacing",
+      "overflow"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "padding",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "padding",
+      "outline",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "padding",
+      "outline",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "overflow",
+      "display",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 56,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "overflow: hidden",
+      "outline",
+      "display",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "box-sizing: border-box",
+      "display",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 58,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "display",
+      "border-spacing",
+      "padding",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "overflow",
+      "border-spacing",
+      "display",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "box-sizing: border-box"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 61,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "margin"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 62,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "overflow: hidden",
+      "outline",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "overflow",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "box-sizing: border-box"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "overflow: hidden",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "padding",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "margin",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 70,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "display",
+      "outline",
+      "overflow: hidden"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "outline",
+      "padding",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "overflow"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "display",
+      "outline",
+      "overflow: hidden",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 74,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "box-sizing: border-box",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "border-spacing",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 76,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "display",
+      "box-sizing: border-box",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 77,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "outline",
+      "overflow",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 78,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "outline",
+      "overflow: hidden",
+      "display",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 79,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "outline",
+      "border-spacing",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 80,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "display",
+      "overflow",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 81,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "display",
+      "padding",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 82,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "display",
+      "outline",
+      "box-sizing: border-box",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 83,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 84,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "padding",
+      "display",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 85,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "padding",
+      "border-spacing",
+      "outline",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 86,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "box-sizing: border-box",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "display",
+      "overflow",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 88,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "margin",
+      "outline",
+      "display",
+      "border-spacing"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 89,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "padding",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 90,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "margin",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 91,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "border-spacing",
+      "padding",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 92,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "overflow: hidden",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 93,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "box-sizing: border-box",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "overflow: hidden",
+      "border-spacing",
+      "outline",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 95,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "margin",
+      "border-spacing",
+      "outline",
+      "display"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 96,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "border-spacing",
+      "overflow: hidden",
+      "display",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 97,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "display",
+      "box-sizing: border-box"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 98,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "overflow",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 99,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "padding",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "margin"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 102,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "display",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "display",
+      "box-sizing: border-box",
+      "border-spacing",
+      "outline"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 104,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "outline",
+      "overflow",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 105,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "display",
+      "outline",
+      "box-sizing: border-box"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 106,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "outline",
+      "display",
+      "box-sizing: border-box",
+      "border-spacing"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 107,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "box-sizing: border-box",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 108,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "padding",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 109,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "border-spacing",
+      "box-sizing: border-box",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 110,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "overflow: hidden",
+      "border-spacing",
+      "display",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 111,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "border-spacing",
+      "display",
+      "box-sizing: border-box",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 112,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "outline",
+      "margin",
+      "border-spacing",
+      "display"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 113,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "border-spacing",
+      "display",
+      "overflow: hidden",
+      "outline"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 114,
+    "question": "What property controls content overflow behavior?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "display",
+      "overflow: hidden"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "question": "Which property controls inner spacing of an element?",
+    "options": [
+      "outline",
+      "border-spacing",
+      "box-sizing: border-box",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 117,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "border-spacing",
+      "outline",
+      "padding"
+    ],
+    "answer": "D",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 118,
+    "question": "Which CSS property controls the space outside an element's border?",
+    "options": [
+      "display",
+      "margin",
+      "outline",
+      "border-spacing"
+    ],
+    "answer": "B",
+    "category": "layout",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "question": "Which setting ensures padding and border are included in element width?",
+    "options": [
+      "border-spacing",
+      "outline",
+      "padding",
+      "display"
+    ],
+    "answer": "C",
+    "category": "layout",
+    "difficulty": "easy"
+  },
+  {
+    "id": 120,
+    "question": "Which value hides overflow content without scrollbars?",
+    "options": [
+      "padding",
+      "border-spacing",
+      "display",
+      "outline"
+    ],
+    "answer": "A",
+    "category": "layout",
+    "difficulty": "hard"
+  },
+  {
+    "id": 121,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "float",
+      "justify-content",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 122,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "flex-wrap",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 123,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 124,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "row",
+      "align-content",
+      "float",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "align-content",
+      "align-items",
+      "float",
+      "grid-template-columns"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 126,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "flex-wrap",
+      "float",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 127,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "align-content",
+      "order",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "align-content",
+      "float",
+      "justify-content",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 129,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "float",
+      "align-content",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 130,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "float",
+      "order",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 131,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 132,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "justify-content",
+      "float",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 133,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "order",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 134,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "justify-content",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "float",
+      "order",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 136,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 137,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "float",
+      "flex-wrap",
+      "align-content"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "row",
+      "align-content",
+      "float",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 139,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "row",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 140,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "float",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 141,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "align-content",
+      "row"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 142,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "align-items",
+      "align-content"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 143,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 144,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 145,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "align-content",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "row",
+      "grid-template-columns",
+      "align-content",
+      "float"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 147,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "row",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 148,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 149,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "order",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 150,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "order",
+      "float",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 151,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "row",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 152,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "flex-wrap",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 153,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "justify-content",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "row",
+      "align-content",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 155,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 156,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "align-content",
+      "float",
+      "row",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 157,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "align-content",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 158,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "flex-wrap",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 159,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "flex-wrap",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 160,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 161,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 162,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 163,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "float",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 164,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "flex-wrap",
+      "align-content"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 165,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "float",
+      "align-content",
+      "flex-wrap",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 166,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "float",
+      "row"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 167,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "justify-content",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 168,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "align-content",
+      "align-items",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 169,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "align-content",
+      "flex-wrap",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 170,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "order",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 171,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "float",
+      "grid-template-columns",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 172,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "grid-template-columns",
+      "float",
+      "flex-wrap",
+      "align-content"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 173,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "align-content",
+      "float",
+      "grid-template-columns",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 174,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "order",
+      "float",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 175,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "align-content",
+      "float",
+      "grid-template-columns",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 176,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "grid-template-columns",
+      "justify-content",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 177,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 178,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "align-content",
+      "row",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 179,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 180,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "justify-content",
+      "float",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "row",
+      "float",
+      "align-content"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 182,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "align-content",
+      "align-items",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 183,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "align-content",
+      "float",
+      "grid-template-columns",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 184,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "align-items",
+      "align-content",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 185,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "row",
+      "float",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 186,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 187,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "flex-wrap",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 188,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "justify-content",
+      "align-content",
+      "float",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 189,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "align-content",
+      "grid-template-columns",
+      "order",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 190,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 191,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "float",
+      "flex-wrap",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 192,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "order",
+      "float",
+      "grid-template-columns",
+      "align-content"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 193,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "flex-wrap",
+      "align-content",
+      "float",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 194,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "align-content",
+      "justify-content",
+      "grid-template-columns",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 195,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "align-content",
+      "float",
+      "grid-template-columns",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 196,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "row",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 197,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "align-items",
+      "grid-template-columns",
+      "float",
+      "align-content"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 198,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "flex-wrap",
+      "grid-template-columns",
+      "align-content",
+      "float"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 199,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "grid-template-columns",
+      "float",
+      "align-content",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 200,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "grid-template-columns",
+      "order",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 201,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 202,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "flex-wrap",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 203,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "justify-content",
+      "grid-template-columns",
+      "float",
+      "align-content"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 204,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "float",
+      "align-content",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 205,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "align-items",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 206,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 207,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "row",
+      "float"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 208,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "align-content",
+      "row"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 209,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "order",
+      "float",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 210,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "justify-content",
+      "align-content",
+      "grid-template-columns"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "float",
+      "grid-template-columns",
+      "align-items",
+      "align-content"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 212,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "float",
+      "align-content",
+      "flex-wrap"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 213,
+    "question": "Which property allows flex items to wrap?",
+    "options": [
+      "grid-template-columns",
+      "align-content",
+      "float",
+      "order"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 214,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "align-items",
+      "grid-template-columns",
+      "float",
+      "align-content"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 215,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "flex-wrap",
+      "grid-template-columns",
+      "align-content",
+      "float"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 216,
+    "question": "Which property changes item order in flex container?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "justify-content"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "easy"
+  },
+  {
+    "id": 217,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "float",
+      "align-content",
+      "grid-template-columns",
+      "align-items"
+    ],
+    "answer": "D",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 218,
+    "question": "Which property aligns flex items along the main axis?",
+    "options": [
+      "justify-content",
+      "grid-template-columns",
+      "align-content",
+      "float"
+    ],
+    "answer": "A",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 219,
+    "question": "What is the default flex-direction?",
+    "options": [
+      "grid-template-columns",
+      "justify-content",
+      "align-content",
+      "float"
+    ],
+    "answer": "B",
+    "category": "flexbox",
+    "difficulty": "medium"
+  },
+  {
+    "id": 220,
+    "question": "Which property controls cross-axis alignment in flexbox?",
+    "options": [
+      "float",
+      "align-content",
+      "align-items",
+      "grid-template-columns"
+    ],
+    "answer": "C",
+    "category": "flexbox",
+    "difficulty": "hard"
+  },
+  {
+    "id": 221,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "padding",
+      "margin",
+      "flex-direction",
+      "repeat()"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 222,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "fr",
+      "margin"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 223,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "padding",
+      "grid-template-columns",
+      "flex-direction",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 224,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "margin",
+      "padding",
+      "fr",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 225,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "padding",
+      "margin",
+      "fr",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 226,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "grid-template-columns"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 227,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "padding",
+      "grid-template-columns",
+      "flex-direction",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 228,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "padding",
+      "margin",
+      "grid-area",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 229,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "fr",
+      "flex-direction",
+      "margin",
+      "padding"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 230,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "grid-template-columns",
+      "margin",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 231,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "repeat()"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 232,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "repeat()",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 233,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "padding",
+      "repeat()",
+      "flex-direction",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 234,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "grid-template-columns",
+      "padding",
+      "margin",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 235,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "fr",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 236,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "margin",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 237,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "padding",
+      "margin",
+      "flex-direction",
+      "grid-template-columns"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 238,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "fr",
+      "flex-direction",
+      "padding",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 239,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 240,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "gap",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 241,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "fr",
+      "flex-direction",
+      "margin",
+      "padding"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 242,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "padding",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 243,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "padding",
+      "gap",
+      "flex-direction",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 244,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "fr",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 245,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "margin",
+      "grid-area",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 246,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "gap",
+      "flex-direction",
+      "margin",
+      "padding"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 247,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "grid-template-columns",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 248,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "fr",
+      "margin",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 249,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "gap",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 250,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "fr",
+      "flex-direction",
+      "padding",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 251,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "margin",
+      "padding",
+      "flex-direction",
+      "grid-template-columns"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 252,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "grid-area",
+      "flex-direction",
+      "padding",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 253,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "fr",
+      "margin",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 254,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "padding",
+      "grid-template-columns",
+      "margin",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 256,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "margin",
+      "fr"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 257,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "grid-area",
+      "flex-direction",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 258,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "repeat()",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 259,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "margin",
+      "fr"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 260,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "flex-direction",
+      "grid-template-columns",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 261,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "gap",
+      "margin"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 262,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 263,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "padding",
+      "margin",
+      "flex-direction",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 264,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "padding",
+      "margin",
+      "flex-direction",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 265,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "grid-template-columns",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 266,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "padding",
+      "margin",
+      "gap",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 267,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "margin",
+      "fr",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 268,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "padding",
+      "flex-direction",
+      "repeat()"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 269,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "margin",
+      "gap"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 270,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "grid-template-columns",
+      "margin"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 271,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 272,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "margin",
+      "repeat()"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 273,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "margin",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 274,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "grid-area",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 275,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "padding",
+      "grid-template-columns"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 276,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "margin",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 277,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "gap",
+      "flex-direction",
+      "padding",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 278,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "gap",
+      "margin"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 279,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "margin",
+      "grid-area",
+      "flex-direction",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 280,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "gap",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 281,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "padding",
+      "fr"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 282,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "grid-area",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 283,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "padding",
+      "margin",
+      "fr",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 284,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "padding",
+      "grid-template-columns"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 285,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 286,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "padding",
+      "margin",
+      "flex-direction",
+      "repeat()"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 287,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "flex-direction",
+      "repeat()",
+      "margin",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 288,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "fr",
+      "margin"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 289,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "margin",
+      "grid-area",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 290,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "gap"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 291,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "margin",
+      "padding",
+      "flex-direction",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 292,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "margin",
+      "padding",
+      "flex-direction",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 293,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "padding",
+      "margin",
+      "gap",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 294,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "grid-template-columns",
+      "margin",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 295,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "padding",
+      "fr",
+      "margin",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 296,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "padding",
+      "margin",
+      "gap",
+      "flex-direction"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 297,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "fr",
+      "margin",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 298,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "grid-area",
+      "flex-direction",
+      "padding",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 299,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "gap"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 300,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "padding",
+      "margin",
+      "flex-direction",
+      "fr"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 301,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 302,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "grid-area",
+      "margin"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 303,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "flex-direction",
+      "gap",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 304,
+    "question": "Which unit represents fraction of available space?",
+    "options": [
+      "grid-area",
+      "flex-direction",
+      "padding",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 305,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "flex-direction",
+      "fr",
+      "padding",
+      "margin"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 306,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "flex-direction",
+      "fr",
+      "margin",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 307,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "repeat()",
+      "padding",
+      "flex-direction",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 308,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "grid-template-columns",
+      "padding",
+      "margin",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 309,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "padding",
+      "flex-direction",
+      "margin",
+      "gap"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 310,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "grid-template-columns",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 311,
+    "question": "Which property defines grid columns?",
+    "options": [
+      "margin",
+      "repeat()",
+      "flex-direction",
+      "padding"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 312,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "repeat()",
+      "padding",
+      "flex-direction",
+      "margin"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 313,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "margin",
+      "grid-template-columns",
+      "padding",
+      "flex-direction"
+    ],
+    "answer": "B",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 314,
+    "question": "Which function repeats track definitions?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "padding",
+      "gap"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 315,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "flex-direction",
+      "padding",
+      "margin",
+      "grid-area"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 316,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "margin",
+      "flex-direction",
+      "gap",
+      "padding"
+    ],
+    "answer": "C",
+    "category": "grid",
+    "difficulty": "easy"
+  },
+  {
+    "id": 317,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "grid-template-columns",
+      "margin",
+      "flex-direction",
+      "padding"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 318,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "gap",
+      "padding",
+      "margin",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 319,
+    "question": "Which property places an item in a grid area?",
+    "options": [
+      "grid-area",
+      "padding",
+      "margin",
+      "flex-direction"
+    ],
+    "answer": "A",
+    "category": "grid",
+    "difficulty": "medium"
+  },
+  {
+    "id": 320,
+    "question": "Which property controls gaps between grid items?",
+    "options": [
+      "flex-direction",
+      "margin",
+      "padding",
+      "repeat()"
+    ],
+    "answer": "D",
+    "category": "grid",
+    "difficulty": "hard"
+  },
+  {
+    "id": 321,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "rem",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 322,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "px",
+      ".class",
+      "*",
+      "#"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 323,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "#",
+      "px",
+      "rem",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 324,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      ".class",
+      "#",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 325,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "*",
+      ".class",
+      "#",
+      "px"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 326,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ".class",
+      "@media",
+      "px",
+      "#"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 327,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "px",
+      ".class",
+      "#",
+      "*"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 328,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "@media",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "px",
+      "#",
+      "rem",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 330,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      ".class",
+      ">",
+      "#"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 331,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      "px",
+      "@media",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 332,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "*",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 333,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "#",
+      ".class",
+      ":hover",
+      "px"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 334,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      "px",
+      ".class",
+      "*"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 335,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "@media",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 336,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      "rem",
+      "#",
+      ".class"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 337,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "rem",
+      "#",
+      ".class",
+      "px"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 338,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      ".class",
+      "px",
+      "#",
+      "*"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 339,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ":hover",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 340,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ">",
+      "#",
+      ".class",
+      "px"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 341,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      ".class",
+      ">",
+      "#"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 342,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      "@media",
+      "px",
+      ".class"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 343,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      ".class",
+      "px",
+      "@media",
+      "#"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 344,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      ".class",
+      "px",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 345,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "px",
+      "#",
+      ".class",
+      ":hover"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 346,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ".class",
+      "#",
+      ">",
+      "px"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 347,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "#",
+      ">",
+      ".class",
+      "px"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 348,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      "px",
+      ":hover",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 349,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "#",
+      "px",
+      ".class",
+      ":hover"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 350,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      "#",
+      ":hover",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 351,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      ":hover",
+      "#",
+      "px",
+      ".class"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 352,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "px",
+      "#",
+      ":hover",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 353,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      "rem",
+      ".class",
+      "px"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 354,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "#",
+      ".class",
+      "px",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 355,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "rem",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 356,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "px",
+      "rem",
+      ".class",
+      "#"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 357,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "#",
+      "px",
+      ".class",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 358,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "px",
+      "*",
+      ".class",
+      "#"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 359,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "px",
+      "#",
+      ".class",
+      "@media"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 360,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      ".class",
+      ">",
+      "px"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 361,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ".class",
+      "px",
+      "#",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 362,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "*",
+      "#",
+      ".class",
+      "px"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 363,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "px",
+      "@media",
+      "#",
+      ".class"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 364,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ">",
+      ".class",
+      "#",
+      "px"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 365,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      ":hover",
+      "px",
+      "#",
+      ".class"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 366,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ".class",
+      "px",
+      "#",
+      "@media"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 367,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      "#",
+      ".class",
+      "*"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 368,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      ".class",
+      "px",
+      ">"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 369,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ".class",
+      "#",
+      ":hover",
+      "px"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 370,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ":hover",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 371,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "#",
+      "rem",
+      "px",
+      ".class"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 372,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      ".class",
+      "#",
+      "px",
+      ">"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 373,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ">",
+      "#",
+      ".class",
+      "px"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 374,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      ">",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 375,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "px",
+      ":hover",
+      ".class",
+      "#"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 376,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      "px",
+      ".class",
+      ":hover"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 377,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      "#",
+      "rem",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 378,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      ":hover",
+      "#",
+      "px",
+      ".class"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 379,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "px",
+      "#",
+      "@media",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 380,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ":hover",
+      "#",
+      ".class",
+      "px"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 381,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "px",
+      ".class",
+      "#",
+      "*"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 382,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "#",
+      "rem",
+      ".class",
+      "px"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 383,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "rem",
+      "#",
+      "px",
+      ".class"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 384,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      "#",
+      ".class",
+      ">"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 385,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "#",
+      "px",
+      ":hover",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 386,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "rem",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 387,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      ".class",
+      "@media",
+      "px"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 388,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      "@media",
+      ".class",
+      "px"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 389,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "*",
+      ".class",
+      "#",
+      "px"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 390,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ".class",
+      "#",
+      ":hover",
+      "px"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 391,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "#",
+      ".class",
+      "px",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 392,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      ".class",
+      "#",
+      "rem",
+      "px"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 393,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      ".class",
+      "#",
+      "px",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 394,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "px",
+      "*",
+      ".class",
+      "#"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 395,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ".class",
+      "#",
+      "px",
+      "@media"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 396,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "px",
+      "#",
+      ".class",
+      "@media"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 397,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      ".class",
+      "px",
+      "@media",
+      "#"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 398,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "rem",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 399,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "*",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 400,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "#",
+      "rem",
+      ".class",
+      "px"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 401,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      ".class",
+      "@media",
+      "#",
+      "px"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 402,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      ">",
+      ".class",
+      "px",
+      "#"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 403,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      ".class",
+      "#",
+      "*",
+      "px"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 404,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "px",
+      ":hover",
+      ".class",
+      "#"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 405,
+    "question": "Which selector matches all elements?",
+    "options": [
+      "px",
+      "#",
+      ".class",
+      "@media"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 406,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "px",
+      "*",
+      "#",
+      ".class"
+    ],
+    "answer": "B",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 407,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      ".class",
+      "#",
+      "px",
+      "*"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 408,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      ".class",
+      "#",
+      "px",
+      ":hover"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 409,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "#",
+      ".class",
+      "px",
+      ">"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 410,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ".class",
+      ":hover",
+      "#",
+      "px"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "easy"
+  },
+  {
+    "id": 411,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ">",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 412,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      "px",
+      ">",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 413,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      "#",
+      ".class",
+      "px",
+      "@media"
+    ],
+    "answer": "D",
+    "category": "selectors",
+    "difficulty": "easy"
+  },
+  {
+    "id": 414,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "#",
+      "px",
+      ":hover",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "hard"
+  },
+  {
+    "id": 415,
+    "question": "Which pseudo-class applies on hover?",
+    "options": [
+      ".class",
+      "px",
+      ":hover",
+      "#"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 416,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      ".class",
+      "#",
+      "px",
+      "rem"
+    ],
+    "answer": "D",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 417,
+    "question": "Which selector targets direct child elements?",
+    "options": [
+      "#",
+      ".class",
+      "*",
+      "px"
+    ],
+    "answer": "C",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 418,
+    "question": "Which selector matches all elements?",
+    "options": [
+      ".class",
+      "*",
+      "#",
+      "px"
+    ],
+    "answer": "B",
+    "category": "responsive",
+    "difficulty": "medium"
+  },
+  {
+    "id": 419,
+    "question": "Which unit is relative to root font size?",
+    "options": [
+      "@media",
+      "px",
+      ".class",
+      "#"
+    ],
+    "answer": "A",
+    "category": "selectors",
+    "difficulty": "medium"
+  },
+  {
+    "id": 420,
+    "question": "Which at-rule is used for responsive design?",
+    "options": [
+      "px",
+      "#",
+      "rem",
+      ".class"
+    ],
+    "answer": "C",
+    "category": "selectors",
+    "difficulty": "hard"
+  },
+  {
+    "id": 421,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "@keyframes",
+      "font-size",
+      "color",
+      "display"
+    ],
+    "answer": "A",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 422,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "transform and opacity",
+      "display",
+      "color"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 423,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "display",
+      "font-size",
+      "color",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 424,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "color",
+      "font-size",
+      "will-change",
+      "display"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 425,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "@keyframes",
+      "color",
+      "display",
+      "font-size"
+    ],
+    "answer": "A",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 426,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "animation-duration",
+      "font-size",
+      "display",
+      "color"
+    ],
+    "answer": "A",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 427,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "color",
+      "font-size",
+      "@keyframes",
+      "display"
+    ],
+    "answer": "C",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 428,
+    "question": "What causes layout reflow?",
+    "options": [
+      "changing layout-affecting properties",
+      "font-size",
+      "color",
+      "display"
+    ],
+    "answer": "A",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 429,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "color",
+      "display",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 430,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "font-size",
+      "display",
+      "color",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 431,
+    "question": "What causes layout reflow?",
+    "options": [
+      "display",
+      "color",
+      "will-change",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 432,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "font-size",
+      "transform and opacity",
+      "color",
+      "display"
+    ],
+    "answer": "B",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 433,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "color",
+      "will-change",
+      "display",
+      "font-size"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 434,
+    "question": "What causes layout reflow?",
+    "options": [
+      "font-size",
+      "color",
+      "@keyframes",
+      "display"
+    ],
+    "answer": "C",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 435,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "color",
+      "display",
+      "transform and opacity",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 436,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "color",
+      "will-change",
+      "display",
+      "font-size"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 437,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "display",
+      "color",
+      "will-change"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 438,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "display",
+      "changing layout-affecting properties",
+      "color",
+      "font-size"
+    ],
+    "answer": "B",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 439,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "font-size",
+      "display",
+      "animation-duration",
+      "color"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 440,
+    "question": "What causes layout reflow?",
+    "options": [
+      "color",
+      "display",
+      "font-size",
+      "animation-duration"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 441,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "transform and opacity",
+      "display",
+      "color",
+      "font-size"
+    ],
+    "answer": "A",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 442,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "color",
+      "display",
+      "changing layout-affecting properties",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 443,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "display",
+      "font-size",
+      "color",
+      "will-change"
+    ],
+    "answer": "D",
+    "category": "performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 444,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "font-size",
+      "changing layout-affecting properties",
+      "color",
+      "display"
+    ],
+    "answer": "B",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 445,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "color",
+      "display",
+      "@keyframes",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 446,
+    "question": "What causes layout reflow?",
+    "options": [
+      "color",
+      "display",
+      "changing layout-affecting properties",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 447,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "will-change",
+      "font-size",
+      "display",
+      "color"
+    ],
+    "answer": "A",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 448,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "color",
+      "display",
+      "font-size",
+      "changing layout-affecting properties"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 449,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "display",
+      "color",
+      "animation-duration",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 450,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "font-size",
+      "display",
+      "color",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 451,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "color",
+      "display",
+      "transform and opacity",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 452,
+    "question": "What causes layout reflow?",
+    "options": [
+      "color",
+      "font-size",
+      "display",
+      "@keyframes"
+    ],
+    "answer": "D",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 453,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "display",
+      "color",
+      "animation-duration",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 454,
+    "question": "What causes layout reflow?",
+    "options": [
+      "color",
+      "display",
+      "transform and opacity",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 455,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "font-size",
+      "changing layout-affecting properties",
+      "display",
+      "color"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 456,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "changing layout-affecting properties",
+      "display",
+      "color",
+      "font-size"
+    ],
+    "answer": "A",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 457,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "font-size",
+      "color",
+      "transform and opacity",
+      "display"
+    ],
+    "answer": "C",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 458,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "color",
+      "transform and opacity",
+      "display"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 459,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "display",
+      "color",
+      "will-change",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 460,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "display",
+      "color",
+      "font-size",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 461,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "color",
+      "@keyframes",
+      "font-size",
+      "display"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 462,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "animation-duration",
+      "color",
+      "display",
+      "font-size"
+    ],
+    "answer": "A",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 463,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "display",
+      "animation-duration",
+      "font-size",
+      "color"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 464,
+    "question": "What causes layout reflow?",
+    "options": [
+      "font-size",
+      "display",
+      "transform and opacity",
+      "color"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 465,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "display",
+      "color",
+      "animation-duration",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 466,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "color",
+      "animation-duration",
+      "display",
+      "font-size"
+    ],
+    "answer": "B",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 467,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "font-size",
+      "@keyframes",
+      "color",
+      "display"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 468,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "color",
+      "font-size",
+      "transform and opacity",
+      "display"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 469,
+    "question": "What causes layout reflow?",
+    "options": [
+      "will-change",
+      "color",
+      "display",
+      "font-size"
+    ],
+    "answer": "A",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 470,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "font-size",
+      "color",
+      "display",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 471,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "font-size",
+      "display",
+      "color",
+      "@keyframes"
+    ],
+    "answer": "D",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 472,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "transform and opacity",
+      "display",
+      "color"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 473,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "color",
+      "font-size",
+      "animation-duration",
+      "display"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 474,
+    "question": "What causes layout reflow?",
+    "options": [
+      "font-size",
+      "will-change",
+      "display",
+      "color"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 475,
+    "question": "What causes layout reflow?",
+    "options": [
+      "display",
+      "changing layout-affecting properties",
+      "font-size",
+      "color"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 476,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "display",
+      "transform and opacity",
+      "font-size",
+      "color"
+    ],
+    "answer": "B",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 477,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "display",
+      "@keyframes",
+      "color",
+      "font-size"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 478,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "will-change",
+      "display",
+      "font-size",
+      "color"
+    ],
+    "answer": "A",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 479,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "@keyframes",
+      "display",
+      "color"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 480,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "font-size",
+      "color",
+      "display",
+      "changing layout-affecting properties"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 481,
+    "question": "What causes layout reflow?",
+    "options": [
+      "color",
+      "font-size",
+      "transform and opacity",
+      "display"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 482,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "font-size",
+      "display",
+      "color",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 483,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "font-size",
+      "display",
+      "transform and opacity",
+      "color"
+    ],
+    "answer": "C",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 484,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "display",
+      "changing layout-affecting properties",
+      "font-size",
+      "color"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 485,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "font-size",
+      "display",
+      "color",
+      "@keyframes"
+    ],
+    "answer": "D",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 486,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "display",
+      "color",
+      "@keyframes",
+      "font-size"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 487,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "will-change",
+      "display",
+      "font-size",
+      "color"
+    ],
+    "answer": "A",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 488,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "color",
+      "font-size",
+      "display",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 489,
+    "question": "Which property hints browser about upcoming changes?",
+    "options": [
+      "color",
+      "will-change",
+      "display",
+      "font-size"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 490,
+    "question": "What causes layout reflow?",
+    "options": [
+      "display",
+      "font-size",
+      "color",
+      "changing layout-affecting properties"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 491,
+    "question": "Which properties are GPU-friendly for animation?",
+    "options": [
+      "color",
+      "@keyframes",
+      "font-size",
+      "display"
+    ],
+    "answer": "B",
+    "category": "performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 492,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "font-size",
+      "color",
+      "will-change",
+      "display"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 493,
+    "question": "What causes layout reflow?",
+    "options": [
+      "color",
+      "font-size",
+      "display",
+      "transform and opacity"
+    ],
+    "answer": "D",
+    "category": "animation",
+    "difficulty": "hard"
+  },
+  {
+    "id": 494,
+    "question": "What causes layout reflow?",
+    "options": [
+      "display",
+      "font-size",
+      "@keyframes",
+      "color"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 495,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "display",
+      "will-change",
+      "font-size",
+      "color"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "hard"
+  },
+  {
+    "id": 496,
+    "question": "What causes layout reflow?",
+    "options": [
+      "font-size",
+      "changing layout-affecting properties",
+      "display",
+      "color"
+    ],
+    "answer": "B",
+    "category": "debug",
+    "difficulty": "medium"
+  },
+  {
+    "id": 497,
+    "question": "Which property controls animation duration?",
+    "options": [
+      "display",
+      "font-size",
+      "animation-duration",
+      "color"
+    ],
+    "answer": "C",
+    "category": "debug",
+    "difficulty": "easy"
+  },
+  {
+    "id": 498,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "font-size",
+      "display",
+      "changing layout-affecting properties",
+      "color"
+    ],
+    "answer": "C",
+    "category": "animation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 499,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "@keyframes",
+      "font-size",
+      "color",
+      "display"
+    ],
+    "answer": "A",
+    "category": "animation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 500,
+    "question": "Which rule defines animation keyframes?",
+    "options": [
+      "font-size",
+      "display",
+      "animation-duration",
+      "color"
+    ],
+    "answer": "C",
+    "category": "performance",
+    "difficulty": "easy"
+  }
+]

@@ -37,7 +37,7 @@ export default function ExercisesPage() {
         </article>
       ))}
 
-      <button onClick={() => setSubmitted(true)} className="rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white">
+      <button onClick={() => setSubmitted(true)} className="interactive-strong rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white">
         {t(language, 'checkAnswers')}
       </button>
 

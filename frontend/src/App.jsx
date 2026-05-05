@@ -8,6 +8,7 @@ import CoursesPage from './pages/CoursesPage'
 import EditorPage from './pages/EditorPage'
 import ExercisesPage from './pages/ExercisesPage'
 import HomePage from './pages/HomePage'
+import LegalDocumentPage from './pages/LegalDocumentPage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import ProjectsPage from './pages/ProjectsPage'
@@ -36,6 +37,8 @@ function AuthRoutes() {
           <Route path="/tutor" element={<TutorPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/settings/privacy-policy" element={<LegalDocumentPage />} />
+          <Route path="/settings/terms" element={<LegalDocumentPage />} />
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Route>
       </Routes>

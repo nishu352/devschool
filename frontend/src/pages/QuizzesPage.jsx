@@ -1,240 +1,597 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import cssData from '../../resources/css.json'
+import javaData from '../../resources/java.json'
+import htmlData from '../../resources/mcq.json'
+import AnswerReview from '../components/assessment/AnswerReview'
+import QuizScreen from '../components/assessment/QuizScreen'
+import ResultScreen from '../components/assessment/ResultScreen'
 import { useApp } from '../context/AppContext'
 import { t } from '../data/i18n'
-import { API_BASE_URL } from '../lib/api'
 
-const API_BASE = API_BASE_URL
+const SUBJECT_OPTIONS = ['HTML', 'CSS', 'Java']
+const COUNT_OPTIONS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+const DURATION_OPTIONS = [5, 10, 15, 20, 30, 45, 60]
+const AUTO_ADVANCE_DELAY_MS = 5000
+const DIFFICULTY_MAP = {
+  mixed: null,
+  low: 'easy',
+  medium: 'medium',
+  high: 'hard',
+}
+
+function getQuestionsBySubject(subject) {
+  if (subject === 'HTML') return htmlData
+  if (subject === 'CSS') return cssData
+  if (subject === 'Java') return javaData
+  return []
+}
+
+function normalizeAnswerIndex(answer, optionCount) {
+  if (!Number.isFinite(optionCount) || optionCount <= 0) return -1
+
+  if (typeof answer === 'number' && Number.isInteger(answer) && answer >= 0 && answer < optionCount) {
+    return answer
+  }
+
+  if (typeof answer === 'string') {
+    const trimmed = answer.trim()
+    if (!trimmed) return -1
+
+    if (/^\d+$/.test(trimmed)) {
+      const numericIndex = Number(trimmed)
+      if (numericIndex >= 0 && numericIndex < optionCount) return numericIndex
+    }
+
+    if (/^[A-Za-z]$/.test(trimmed)) {
+      const alphabetIndex = trimmed.toUpperCase().charCodeAt(0) - 65
+      if (alphabetIndex >= 0 && alphabetIndex < optionCount) return alphabetIndex
+    }
+  }
+
+  return -1
+}
+
+function normalizeQuestion(question, subject, index) {
+  if (!question || typeof question !== 'object') return null
+
+  const prompt = typeof question.question === 'string' ? question.question.trim() : ''
+  const options = Array.isArray(question.options) ? question.options.map((option) => String(option)) : []
+  const answer = normalizeAnswerIndex(question.answer, options.length)
+
+  if (!prompt || options.length < 2 || answer < 0) return null
+
+  return {
+    id: `${subject}-${question.id ?? index}-${index}`,
+    originalId: question.id ?? index + 1,
+    question: prompt,
+    options,
+    answer,
+    category: String(question.category ?? ''),
+    difficulty: String(question.difficulty ?? '').trim().toLowerCase(),
+    subject,
+  }
+}
+
+function filterQuestionsByLevel(questions, selectedLevel) {
+  const targetDifficulty = DIFFICULTY_MAP[selectedLevel] ?? null
+  if (!targetDifficulty) return questions
+  return questions.filter((question) => question.difficulty === targetDifficulty)
+}
+
+function calculateResultStats(questions, userAnswers) {
+  const answerMap = new Map(userAnswers.map((entry) => [entry.questionId, entry]))
+  const correctCount = questions.reduce((total, question) => {
+    const userAnswer = answerMap.get(question.id)
+    return userAnswer && userAnswer.selectedOption === question.answer ? total + 1 : total
+  }, 0)
+  const totalQuestions = questions.length
+  const wrongCount = Math.max(0, totalQuestions - correctCount)
+  const rawScore = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0
+
+  return { correctCount, rawScore, totalQuestions, wrongCount }
+}
+
+function safeFullscreenRequest() {
+  document.documentElement.requestFullscreen?.().catch(() => {})
+}
+
+function safeFullscreenExit(suppressViolationRef) {
+  if (!document.fullscreenElement) return
+  suppressViolationRef.current = true
+  document.exitFullscreen()
+    .catch(() => {})
+    .finally(() => {
+      window.setTimeout(() => {
+        suppressViolationRef.current = false
+      }, 250)
+    })
+}
 
 export default function QuizzesPage() {
-  const { state, actions, metadata } = useApp()
+  const { state, actions } = useApp()
   const language = state.language
-  const [selectedCourse, setSelectedCourse] = useState('html')
-  const [answers, setAnswers] = useState({})
-  const [loading, setLoading] = useState(false)
-  const [quiz, setQuiz] = useState([])
-  const [assessmentQuiz, setAssessmentQuiz] = useState([])
+  const [assessmentSubject, setAssessmentSubject] = useState('HTML')
+  const [assessmentLevel, setAssessmentLevel] = useState('mixed')
+  const [assessmentCount, setAssessmentCount] = useState(10)
+  const [assessmentDurationMinutes, setAssessmentDurationMinutes] = useState(15)
+  const [requireAnswerBeforeNext, setRequireAnswerBeforeNext] = useState(true)
+  const [assessmentQuestions, setAssessmentQuestions] = useState([])
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [userAnswers, setUserAnswers] = useState([])
+  const [assessmentView, setAssessmentView] = useState('setup')
+  const [showDetailedResult, setShowDetailedResult] = useState(false)
+  const [autoAdvanceDeadline, setAutoAdvanceDeadline] = useState(null)
+  const [autoAdvanceRemaining, setAutoAdvanceRemaining] = useState(0)
+  const [setupMessage, setSetupMessage] = useState('')
 
-  const score = useMemo(() => {
-    if (quiz.length === 0) return 0
-    const total = quiz.reduce((count, q) => (answers[q.id] === q.answer ? count + 1 : count), 0)
-    return Math.round((total / quiz.length) * 100)
-  }, [answers, quiz])
+  const assessmentActiveRef = useRef(false)
+  const currentQuestionIndexRef = useRef(0)
+  const autoAdvanceTimeoutRef = useRef(null)
+  const suppressFullscreenViolationRef = useRef(false)
+  const submissionRef = useRef(false)
+  const userAnswersRef = useRef([])
+  const assessmentQuestionsRef = useRef([])
 
-  const loadRandomQuiz = async (courseId) => {
-    setLoading(true)
-    try {
-      const response = await fetch(`${API_BASE}/api/quiz/random?courseId=${courseId}&count=8`)
-      const data = await response.json()
-      const questions = Array.isArray(data.questions) ? data.questions : []
-      setQuiz(questions)
-      setAnswers({})
-      return questions
-    } catch {
-      const fallback = metadata.courseQuizzes[courseId] || []
-      setQuiz(fallback)
-      setAnswers({})
-      return fallback
-    } finally {
-      setLoading(false)
-    }
-  }
+  const normalizedSubjectQuestions = useMemo(
+    () =>
+      getQuestionsBySubject(assessmentSubject)
+        .map((question, index) => normalizeQuestion(question, assessmentSubject, index))
+        .filter(Boolean),
+    [assessmentSubject],
+  )
 
-  /* eslint-disable react-hooks/set-state-in-effect -- fetches random quiz set when course changes */
+  const availableQuestions = useMemo(
+    () => filterQuestionsByLevel(normalizedSubjectQuestions, assessmentLevel),
+    [assessmentLevel, normalizedSubjectQuestions],
+  )
+
+  const selectedQuestion = assessmentQuestions[currentQuestionIndex] ?? null
+
+  const answerMap = useMemo(() => new Map(userAnswers.map((entry) => [entry.questionId, entry])), [userAnswers])
+  const selectedAnswer = selectedQuestion ? answerMap.get(selectedQuestion.id)?.selectedOption ?? null : null
+
+  const resultStats = useMemo(
+    () => calculateResultStats(assessmentQuestions, userAnswers),
+    [assessmentQuestions, userAnswers],
+  )
+
+  const netScore = Math.max(0, resultStats.rawScore - state.assessmentMode.deductions)
+  const availableCount = availableQuestions.length
+  const selectedCount = Math.min(assessmentCount, availableCount || assessmentCount)
+
   useEffect(() => {
-    loadRandomQuiz(selectedCourse)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedCourse])
-  /* eslint-enable react-hooks/set-state-in-effect */
+    assessmentActiveRef.current = state.assessmentMode.active
+  }, [state.assessmentMode.active])
 
-  const submit = () => {
-    actions.submitQuiz(selectedCourse, score)
-  }
+  useEffect(() => {
+    currentQuestionIndexRef.current = currentQuestionIndex
+  }, [currentQuestionIndex])
 
-  const assessmentScore = useMemo(() => {
-    if (assessmentQuiz.length === 0) return 0
-    const total = assessmentQuiz.reduce((count, q) => (answers[q.id] === q.answer ? count + 1 : count), 0)
-    return Math.round((total / assessmentQuiz.length) * 100)
-  }, [answers, assessmentQuiz])
+  useEffect(() => {
+    userAnswersRef.current = userAnswers
+  }, [userAnswers])
 
-  const shuffle = (items) => {
-    const copy = [...items]
-    for (let i = copy.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  useEffect(() => {
+    assessmentQuestionsRef.current = assessmentQuestions
+  }, [assessmentQuestions])
+
+  useEffect(() => {
+    if (!autoAdvanceDeadline) {
+      setAutoAdvanceRemaining(0)
+      return undefined
     }
-    return copy
-  }
 
-  const buildAssessmentQuiz = (list) =>
-    shuffle(list).map((question) => {
-      const options = question.options.map((value, idx) => ({ value, idx }))
-      const shuffledOptions = shuffle(options)
-      const answer = shuffledOptions.findIndex((entry) => entry.idx === question.answer)
-      return {
-        ...question,
-        options: shuffledOptions.map((entry) => entry.value),
-        answer,
+    const updateRemaining = () => {
+      setAutoAdvanceRemaining(Math.max(0, Math.ceil((autoAdvanceDeadline - Date.now()) / 1000)))
+    }
+
+    updateRemaining()
+    const intervalId = window.setInterval(() => {
+      if (Date.now() >= autoAdvanceDeadline) {
+        window.clearInterval(intervalId)
+        setAutoAdvanceRemaining(0)
+      } else {
+        updateRemaining()
       }
-    })
+    }, 250)
 
-  const startAssessment = async () => {
-    const source = await loadRandomQuiz(selectedCourse)
-    setAssessmentQuiz(buildAssessmentQuiz(source))
-    setAnswers({})
-    actions.startAssessment(selectedCourse, 15 * 60)
-    document.documentElement.requestFullscreen?.().catch(() => {})
-  }
+    return () => window.clearInterval(intervalId)
+  }, [autoAdvanceDeadline])
 
-  const submitAssessment = () => {
-    actions.submitAssessment(assessmentScore)
-    if (document.fullscreenElement) document.exitFullscreen().catch(() => {})
-  }
+  useEffect(() => {
+    if (assessmentView !== 'quiz' || !state.assessmentMode.active) return
+    actions.updateAssessmentScore(resultStats.rawScore)
+  }, [actions, assessmentView, resultStats.rawScore, state.assessmentMode.active])
+
+  useEffect(() => {
+    if (assessmentView !== 'quiz') return
+    if (state.assessmentMode.active) return
+    if (!state.assessmentMode.submitted) return
+
+    clearAutoAdvance()
+    submissionRef.current = true
+    safeFullscreenExit(suppressFullscreenViolationRef)
+    setAssessmentView('result')
+  }, [assessmentView, state.assessmentMode.active, state.assessmentMode.submitted])
 
   useEffect(() => {
     if (!state.assessmentMode.active) return undefined
 
-    const onVisibility = () => {
-      if (document.visibilityState !== 'visible') actions.registerAssessmentViolation()
+    const onVisibilityChange = () => {
+      if (document.visibilityState !== 'visible') {
+        actions.registerAssessmentViolation()
+      }
     }
+
     const onBlur = () => actions.registerAssessmentViolation()
+
     const onFullscreenChange = () => {
-      if (!document.fullscreenElement) actions.registerAssessmentViolation()
+      if (suppressFullscreenViolationRef.current) return
+      if (!document.fullscreenElement && assessmentActiveRef.current) {
+        actions.registerAssessmentViolation()
+      }
     }
+
     const onContextMenu = (event) => event.preventDefault()
+
     const onKeyDown = (event) => {
-      const ctrl = event.ctrlKey || event.metaKey
-      if (ctrl && ['c', 'v', 'x', 'a'].includes(event.key.toLowerCase())) {
+      const isModifierPressed = event.ctrlKey || event.metaKey
+      if (isModifierPressed && ['a', 'c', 'v', 'x'].includes(event.key.toLowerCase())) {
         event.preventDefault()
         actions.registerAssessmentViolation()
       }
     }
+
     const onBeforeUnload = () => actions.registerAssessmentViolation()
 
-    document.addEventListener('visibilitychange', onVisibility)
+    document.addEventListener('visibilitychange', onVisibilityChange)
     window.addEventListener('blur', onBlur)
     document.addEventListener('fullscreenchange', onFullscreenChange)
     window.addEventListener('contextmenu', onContextMenu)
     window.addEventListener('keydown', onKeyDown)
     window.addEventListener('beforeunload', onBeforeUnload)
+
     return () => {
-      document.removeEventListener('visibilitychange', onVisibility)
+      document.removeEventListener('visibilitychange', onVisibilityChange)
       window.removeEventListener('blur', onBlur)
       document.removeEventListener('fullscreenchange', onFullscreenChange)
       window.removeEventListener('contextmenu', onContextMenu)
       window.removeEventListener('keydown', onKeyDown)
       window.removeEventListener('beforeunload', onBeforeUnload)
     }
-  }, [state.assessmentMode.active, actions])
+  }, [actions, state.assessmentMode.active])
+
+  useEffect(() => {
+    return () => {
+      if (autoAdvanceTimeoutRef.current) {
+        window.clearTimeout(autoAdvanceTimeoutRef.current)
+      }
+    }
+  }, [])
+
+  function clearAutoAdvance() {
+    if (autoAdvanceTimeoutRef.current) {
+      window.clearTimeout(autoAdvanceTimeoutRef.current)
+      autoAdvanceTimeoutRef.current = null
+    }
+    setAutoAdvanceDeadline(null)
+    setAutoAdvanceRemaining(0)
+  }
+
+  function scheduleAutoAdvance(questionId) {
+    clearAutoAdvance()
+    const deadline = Date.now() + AUTO_ADVANCE_DELAY_MS
+    setAutoAdvanceDeadline(deadline)
+    autoAdvanceTimeoutRef.current = window.setTimeout(() => {
+      autoAdvanceTimeoutRef.current = null
+      setAutoAdvanceDeadline(null)
+      setAutoAdvanceRemaining(0)
+
+      if (!assessmentActiveRef.current || submissionRef.current) return
+
+      const activeQuestion = assessmentQuestionsRef.current[currentQuestionIndexRef.current]
+      if (!activeQuestion || activeQuestion.id !== questionId) return
+
+      if (currentQuestionIndexRef.current >= assessmentQuestionsRef.current.length - 1) {
+        handleSubmitAssessment()
+        return
+      }
+
+      setCurrentQuestionIndex((previousIndex) => previousIndex + 1)
+    }, AUTO_ADVANCE_DELAY_MS)
+  }
+
+  function resetAssessmentState() {
+    clearAutoAdvance()
+    submissionRef.current = false
+    setAssessmentQuestions([])
+    setCurrentQuestionIndex(0)
+    setUserAnswers([])
+    setAssessmentView('setup')
+    setShowDetailedResult(false)
+    setSetupMessage('')
+  }
+
+  function handleStartAssessment() {
+    const filteredQuestions = filterQuestionsByLevel(normalizedSubjectQuestions, assessmentLevel)
+    if (filteredQuestions.length === 0) {
+      setSetupMessage('No questions are available for the selected subject and difficulty.')
+      return
+    }
+
+    const shuffledQuestions = [...filteredQuestions].sort(() => 0.5 - Math.random())
+    const nextQuestions = shuffledQuestions.slice(0, Math.min(assessmentCount, shuffledQuestions.length))
+
+    submissionRef.current = false
+    clearAutoAdvance()
+    setSetupMessage(
+      filteredQuestions.length < assessmentCount
+        ? `Only ${filteredQuestions.length} questions are available for this setup, so all of them will be used.`
+        : '',
+    )
+    setAssessmentQuestions(nextQuestions)
+    setCurrentQuestionIndex(0)
+    setUserAnswers([])
+    setShowDetailedResult(false)
+    setAssessmentView('quiz')
+    actions.startAssessment(assessmentSubject.toLowerCase(), assessmentDurationMinutes * 60)
+    safeFullscreenRequest()
+  }
+
+  function handleSelectOption(optionIndex) {
+    if (!selectedQuestion || submissionRef.current) return
+    if (answerMap.has(selectedQuestion.id)) return
+
+    setUserAnswers((previousAnswers) => [
+      ...previousAnswers,
+      {
+        questionId: selectedQuestion.id,
+        selectedOption: optionIndex,
+        correctAnswer: selectedQuestion.answer,
+      },
+    ])
+
+    scheduleAutoAdvance(selectedQuestion.id)
+  }
+
+  function handleSubmitAssessment() {
+    if (submissionRef.current) return
+    submissionRef.current = true
+    clearAutoAdvance()
+    const latestStats = calculateResultStats(assessmentQuestionsRef.current, userAnswersRef.current)
+    actions.submitAssessment(latestStats.rawScore)
+    safeFullscreenExit(suppressFullscreenViolationRef)
+    setAssessmentView('result')
+  }
+
+  function handleQuitAssessment() {
+    if (submissionRef.current) return
+    submissionRef.current = true
+    clearAutoAdvance()
+    actions.quitAssessment(5)
+    safeFullscreenExit(suppressFullscreenViolationRef)
+    setAssessmentView('result')
+  }
+
+  function handleRestartAssessment() {
+    actions.clearAssessment()
+    resetAssessmentState()
+  }
 
   return (
     <section className="premium-bg space-y-4 rounded-3xl p-4 md:p-6">
-      <h2 className="text-3xl font-bold">{t(language, 'quizzes')}</h2>
-      <p className="text-base text-slate-600 dark:text-slate-300">{t(language, 'quizIntro')}</p>
+      <header className="space-y-2">
+        <h2 className="text-3xl font-bold">{t(language, 'quizzes')}</h2>
+        <p className="text-base text-slate-600 dark:text-slate-300">{t(language, 'assessmentSetupIntro')}</p>
+      </header>
 
-      <select
-        value={selectedCourse}
-        onChange={(event) => {
-          setSelectedCourse(event.target.value)
-        }}
-        className="glass-card rounded-xl px-3 py-2 dark:text-slate-100"
-      >
-        {Object.keys(metadata.courseQuizzes).map((courseId) => (
-          <option key={courseId} value={courseId}>
-            {courseId.toUpperCase()} {t(language, 'chapterQuiz').toLowerCase()}
-          </option>
-        ))}
-      </select>
+      {assessmentView === 'setup' ? (
+        <section className="space-y-4">
+          <article className="glass-card rounded-[2rem] p-5 md:p-8">
+            <div className="flex flex-col gap-6 xl:flex-row xl:items-start xl:justify-between">
+              <div className="max-w-2xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">
+                  {t(language, 'assessmentSetupLabel')}
+                </p>
+                <h3 className="mt-3 text-3xl font-bold">{t(language, 'assessmentSetupTitle')}</h3>
+                <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                  {t(language, 'assessmentSetupDescription')}
+                </p>
+              </div>
 
-      <div className="glass-card flex items-center gap-3 rounded-2xl px-4 py-3">
-        <button
-          type="button"
-          onClick={() => loadRandomQuiz(selectedCourse)}
-          className="rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm"
-        >
-          {loading ? t(language, 'loading') : t(language, 'randomSet')}
-        </button>
-        <button
-          type="button"
-          onClick={startAssessment}
-          disabled={state.assessmentMode.active}
-          className="rounded-xl border border-amber-300 bg-amber-100 px-4 py-2 text-sm font-semibold text-amber-900 disabled:opacity-60 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-100"
-        >
-          {state.assessmentMode.active ? t(language, 'assessmentRunning') : t(language, 'startAssessment')}
-        </button>
-        <p className="text-xs text-slate-600 dark:text-slate-300">{t(language, 'quizRandomHint')}</p>
-      </div>
+              <div className="rounded-[2rem] border border-slate-200 bg-white/80 p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900/70">
+                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-slate-500 dark:text-slate-400">
+                  {t(language, 'assessmentSelectionSummary')}
+                </p>
+                <div className="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-200">
+                  <p>Subject: {assessmentSubject}</p>
+                  <p>Difficulty: {assessmentLevel === 'mixed' ? t(language, 'levelMixed') : assessmentLevel}</p>
+                  <p>Questions: {selectedCount || availableCount || 0}</p>
+                  <p>Timing: {assessmentDurationMinutes} {t(language, 'minutesLabel')}</p>
+                </div>
+              </div>
+            </div>
+          </article>
 
-      {(state.assessmentMode.active ? assessmentQuiz : quiz).map((question) => (
-        <article key={question.id} className="glass-card rounded-2xl p-4">
-          <p className="font-medium">{question.question[language]}</p>
-          <div className="mt-2 space-y-2">
-            {question.options.map((option, index) => (
-              <label key={option} className="flex items-center gap-2 text-sm">
-                <input
-                  type="radio"
-                  checked={answers[question.id] === index}
-                  onChange={() => setAnswers((prev) => ({ ...prev, [question.id]: index }))}
-                />
-                {option}
-              </label>
-            ))}
+          <div className="grid gap-4 xl:grid-cols-[1.45fr_0.95fr]">
+            <article className="glass-card rounded-[2rem] p-5 md:p-8">
+              <div className="grid gap-5 md:grid-cols-2">
+                <label className="space-y-2">
+                  <span className="text-sm font-semibold">Subject</span>
+                  <select
+                    value={assessmentSubject}
+                    onChange={(event) => setAssessmentSubject(event.target.value)}
+                    className="w-full rounded-2xl border border-slate-300 bg-white/80 px-4 py-3 text-sm outline-none dark:border-slate-700 dark:bg-slate-900/70"
+                  >
+                    {SUBJECT_OPTIONS.map((subjectOption) => (
+                      <option key={subjectOption} value={subjectOption}>
+                        {subjectOption}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <label className="space-y-2">
+                  <span className="text-sm font-semibold">{t(language, 'questionLevel')}</span>
+                  <select
+                    value={assessmentLevel}
+                    onChange={(event) => setAssessmentLevel(event.target.value)}
+                    className="w-full rounded-2xl border border-slate-300 bg-white/80 px-4 py-3 text-sm outline-none dark:border-slate-700 dark:bg-slate-900/70"
+                  >
+                    <option value="mixed">{t(language, 'levelMixed')}</option>
+                    <option value="low">{t(language, 'levelLow')}</option>
+                    <option value="medium">{t(language, 'levelMedium')}</option>
+                    <option value="high">{t(language, 'levelHigh')}</option>
+                  </select>
+                </label>
+
+                <label className="space-y-2">
+                  <span className="text-sm font-semibold">{t(language, 'questionCount')}</span>
+                  <select
+                    value={assessmentCount}
+                    onChange={(event) => setAssessmentCount(Number(event.target.value))}
+                    className="w-full rounded-2xl border border-slate-300 bg-white/80 px-4 py-3 text-sm outline-none dark:border-slate-700 dark:bg-slate-900/70"
+                  >
+                    {COUNT_OPTIONS.map((countOption) => (
+                      <option key={countOption} value={countOption} disabled={availableCount > 0 && countOption > availableCount}>
+                        {countOption}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <label className="space-y-2">
+                  <span className="text-sm font-semibold">{t(language, 'assessmentDuration')}</span>
+                  <select
+                    value={assessmentDurationMinutes}
+                    onChange={(event) => setAssessmentDurationMinutes(Number(event.target.value))}
+                    className="w-full rounded-2xl border border-slate-300 bg-white/80 px-4 py-3 text-sm outline-none dark:border-slate-700 dark:bg-slate-900/70"
+                  >
+                    {DURATION_OPTIONS.map((durationOption) => (
+                      <option key={durationOption} value={durationOption}>
+                        {durationOption} {t(language, 'minutesLabel')}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <label className="space-y-2">
+                  <span className="text-sm font-semibold">{t(language, 'questionType')}</span>
+                  <select
+                    value="mcq"
+                    disabled
+                    className="w-full rounded-2xl border border-slate-300 bg-slate-100 px-4 py-3 text-sm outline-none dark:border-slate-700 dark:bg-slate-800"
+                  >
+                    <option value="mcq">{t(language, 'questionTypeMcq')}</option>
+                  </select>
+                </label>
+
+                <label className="space-y-3 rounded-2xl border border-slate-200 bg-white/75 px-4 py-4 dark:border-slate-700 dark:bg-slate-900/60">
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="text-sm font-semibold">{t(language, 'requireAnswerBeforeNext')}</span>
+                    <input
+                      type="checkbox"
+                      checked={requireAnswerBeforeNext}
+                      onChange={(event) => setRequireAnswerBeforeNext(event.target.checked)}
+                      className="h-4 w-4"
+                    />
+                  </div>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">
+                    Exam mode locks skipping and moves to the next question automatically after you answer.
+                  </p>
+                </label>
+              </div>
+
+              <div className="mt-6 flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white/75 p-4 dark:border-slate-700 dark:bg-slate-900/60 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-400">
+                    {t(language, 'questionBankAvailable')}
+                  </p>
+                  <p className="mt-2 text-2xl font-bold">{availableCount}</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-300">
+                    {t(language, 'assessmentReadyHint')}
+                  </p>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={handleStartAssessment}
+                  disabled={availableCount === 0 || state.assessmentMode.active}
+                  className="rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-4 text-sm font-semibold text-white shadow-lg disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  {t(language, 'startAssessmentNow')}
+                </button>
+              </div>
+
+              {setupMessage ? (
+                <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-100">
+                  {setupMessage}
+                </div>
+              ) : null}
+            </article>
+
+            <article className="glass-card rounded-[2rem] p-5 md:p-8">
+              <div className="space-y-5">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">
+                    {t(language, 'assessmentRulesTitle')}
+                  </p>
+                  <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700 dark:text-slate-200">
+                    <li>{t(language, 'assessmentRuleFullscreen')}</li>
+                    <li>{t(language, 'assessmentRuleNavbar')}</li>
+                    <li>{t(language, 'assessmentRuleViolations')}</li>
+                    <li>{t(language, 'assessmentRuleQuit')}</li>
+                    <li>{t(language, 'assessmentRuleTimer')}</li>
+                  </ul>
+                </div>
+
+                <div className="rounded-3xl border border-slate-200 bg-white/70 p-4 dark:border-slate-700 dark:bg-slate-900/60">
+                  <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">
+                    {t(language, 'assessmentConditionsTitle')}
+                  </p>
+                  <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
+                    {t(language, 'assessmentConditionsBody')}
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
-          {!state.assessmentMode.active && answers[question.id] !== undefined ? (
-            <p className="mt-2 text-xs text-slate-500">{question.explanation[language]}</p>
-          ) : null}
-        </article>
-      ))}
+        </section>
+      ) : null}
 
-      <div className="glass-card flex items-center gap-3 rounded-2xl px-4 py-3">
-        {state.assessmentMode.active ? (
-          <>
-            <button onClick={submitAssessment} className="rounded-xl bg-gradient-to-r from-red-600 to-orange-600 px-4 py-2 text-sm font-semibold text-white">
-              {t(language, 'submitAssessment')}
-            </button>
-            <p className="text-sm">
-              {t(language, 'assessmentTimer')}: <span className="font-bold">{Math.floor(state.assessmentMode.timerRemaining / 60)}:{String(state.assessmentMode.timerRemaining % 60).padStart(2, '0')}</span>
-            </p>
-            <p className="text-sm">
-              {t(language, 'violations')}: <span className="font-bold">{state.assessmentMode.violations}</span>
-            </p>
-            <p className="text-sm">
-              {t(language, 'deductions')}: <span className="font-bold">{state.assessmentMode.deductions}</span>
-            </p>
-          </>
-        ) : (
-          <>
-            <button onClick={submit} className="rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 px-4 py-2 text-sm font-semibold text-white">
-              {t(language, 'submitQuiz')}
-            </button>
-            <p className="text-sm">{t(language, 'currentScore')}: <span className="font-bold">{score}%</span></p>
-          </>
-        )}
-      </div>
+      {assessmentView === 'quiz' && selectedQuestion ? (
+        <QuizScreen
+          autoAdvanceRemaining={autoAdvanceRemaining}
+          currentIndex={currentQuestionIndex}
+          deductions={state.assessmentMode.deductions}
+          onQuit={handleQuitAssessment}
+          onSelectOption={handleSelectOption}
+          question={selectedQuestion}
+          selectedOption={selectedAnswer}
+          subject={assessmentSubject}
+          timeRemaining={state.assessmentMode.timerRemaining}
+          totalQuestions={assessmentQuestions.length}
+          violations={state.assessmentMode.violations}
+        />
+      ) : null}
 
-      <article className="glass-card rounded-2xl p-4">
-        <h3 className="font-semibold">{t(language, 'savedScores')}</h3>
-        <ul className="mt-2 space-y-1 text-sm">
-          {Object.entries(state.quizScores).map(([courseId, savedScore]) => (
-            <li key={courseId}>
-              {courseId.toUpperCase()}: {savedScore}%
-            </li>
-          ))}
-        </ul>
-      </article>
-      {state.assessmentMode.submitted ? (
-        <article className="glass-card rounded-2xl p-4">
-          <h3 className="font-semibold">{t(language, 'assessmentResult')}</h3>
-          <p className="mt-2 text-sm">{t(language, 'currentScore')}: {state.assessmentMode.score}%</p>
-          <p className="text-sm">{t(language, 'violations')}: {state.assessmentMode.violations}</p>
-          <p className="text-sm">{t(language, 'deductions')}: {state.assessmentMode.deductions}</p>
-          <button
-            type="button"
-            className="mt-3 rounded-xl border border-slate-300 px-3 py-2 text-sm font-semibold dark:border-slate-600"
-            onClick={actions.clearAssessment}
-          >
-            {t(language, 'closeResult')}
-          </button>
-        </article>
+      {assessmentView === 'result' ? (
+        <section className="space-y-4">
+          <ResultScreen
+            correctCount={resultStats.correctCount}
+            deductions={state.assessmentMode.deductions}
+            onRestart={handleRestartAssessment}
+            onToggleDetailedResult={() => setShowDetailedResult((previousValue) => !previousValue)}
+            score={netScore}
+            showDetailedResult={showDetailedResult}
+            subject={assessmentSubject}
+            totalQuestions={resultStats.totalQuestions}
+            violations={state.assessmentMode.violations}
+            wrongCount={resultStats.wrongCount}
+          />
+
+          {showDetailedResult ? <AnswerReview questions={assessmentQuestions} userAnswers={userAnswers} /> : null}
+        </section>
       ) : null}
     </section>
   )

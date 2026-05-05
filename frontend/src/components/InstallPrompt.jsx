@@ -31,7 +31,7 @@ export default function InstallPrompt() {
         <AppLogo size={20} className="bg-white/10 p-0.5" />
         <p className="text-sm font-semibold">Install DevSchool Pro for faster daily learning.</p>
       </div>
-      <button onClick={install} className="mt-3 w-full rounded-xl bg-white px-4 py-2 text-sm font-semibold text-blue-600">
+      <button onClick={install} className="interactive-chip mt-3 w-full rounded-xl bg-white px-4 py-2 text-sm font-semibold text-blue-600">
         Install App
       </button>
     </div>

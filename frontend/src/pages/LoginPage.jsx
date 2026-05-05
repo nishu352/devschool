@@ -172,7 +172,7 @@ export default function LoginPage() {
                 type="button"
                 onClick={onGoogle}
                 disabled={loading}
-                className="flex w-full items-center justify-center gap-3 rounded-xl border border-slate-300 bg-white px-4 py-3 text-base font-semibold text-slate-800 shadow-sm hover:bg-slate-50 disabled:opacity-60 dark:border-slate-600 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
+                className="interactive-chip flex w-full items-center justify-center gap-3 rounded-xl border border-slate-300 bg-white px-4 py-3 text-base font-semibold text-slate-800 shadow-sm hover:bg-slate-50 disabled:opacity-60 dark:border-slate-600 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800"
               >
                 <GoogleGlyph />
                 {loading ? t(language, 'pleaseWait') : t(language, 'continueWithGoogle')}
@@ -243,7 +243,7 @@ export default function LoginPage() {
                       type="button"
                       onClick={onForgotPassword}
                       disabled={loading}
-                      className="text-sm font-medium text-blue-600 hover:text-blue-700 disabled:opacity-60"
+                      className="interactive-chip rounded-lg border border-transparent px-2 py-1 text-sm font-medium text-blue-600 hover:text-blue-700 disabled:opacity-60"
                     >
                       {t(language, 'forgotPassword')}
                     </button>
@@ -252,7 +252,7 @@ export default function LoginPage() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full rounded-xl bg-blue-600 px-4 py-3 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
+                    className="interactive-strong w-full rounded-xl bg-blue-600 px-4 py-3 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
                   >
                     {loading ? t(language, 'pleaseWait') : tab === 'signIn' ? t(language, 'signIn') : t(language, 'createAccount')}
                   </button>
@@ -282,7 +282,7 @@ export default function LoginPage() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full rounded-xl bg-blue-600 px-4 py-3 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
+                    className="interactive-strong w-full rounded-xl bg-blue-600 px-4 py-3 text-base font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
                   >
                     {loading ? t(language, 'pleaseWait') : t(language, 'sendSmsCode')}
                   </button>
@@ -312,14 +312,14 @@ export default function LoginPage() {
                         setPhoneStep('enterPhone')
                         setPhoneOtp('')
                       }}
-                      className="flex-1 rounded-xl border border-slate-300 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50 disabled:opacity-60 dark:border-slate-600 dark:text-white dark:hover:bg-slate-800"
+                      className="interactive-chip flex-1 rounded-xl border border-slate-300 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50 disabled:opacity-60 dark:border-slate-600 dark:text-white dark:hover:bg-slate-800"
                     >
                       {t(language, 'changeNumber')}
                     </button>
                     <button
                       type="submit"
                       disabled={loading}
-                      className="flex-1 rounded-xl bg-blue-600 px-4 py-3 text-sm font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
+                      className="interactive-strong flex-1 rounded-xl bg-blue-600 px-4 py-3 text-sm font-semibold text-white hover:bg-blue-700 disabled:opacity-60"
                     >
                       {loading ? t(language, 'pleaseWait') : t(language, 'verifyAndContinue')}
                     </button>
@@ -357,7 +357,7 @@ export default function LoginPage() {
             />
             <button
               type="submit"
-              className="mt-4 w-full rounded-xl bg-slate-800 px-4 py-3 text-base font-semibold text-white hover:bg-slate-900 dark:bg-blue-900 dark:hover:bg-blue-950"
+              className="interactive-strong mt-4 w-full rounded-xl bg-slate-800 px-4 py-3 text-base font-semibold text-white hover:bg-slate-900 dark:bg-blue-900 dark:hover:bg-blue-950"
             >
               {t(language, 'startLearning')}
             </button>
@@ -396,7 +396,7 @@ function TabButton({ active, children, onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className={`flex-1 rounded-lg px-3 py-2 text-sm font-semibold transition ${
+      className={`interactive-chip flex-1 rounded-lg px-3 py-2 text-sm font-semibold transition ${
         active ? 'bg-white text-slate-900 shadow-sm dark:bg-slate-700 dark:text-white' : 'text-slate-600 dark:text-slate-400'
       }`}
     >

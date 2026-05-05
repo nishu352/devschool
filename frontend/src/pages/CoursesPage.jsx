@@ -24,7 +24,7 @@ export default function CoursesPage() {
                   <Link
                     key={course.id}
                     to={`/chapter/${course.id}/${course.chapters[0].slug}`}
-                    className="rounded-xl bg-slate-100 p-3 dark:bg-slate-800"
+                    className="interactive-card rounded-xl border border-transparent bg-slate-100 p-3 dark:bg-slate-800"
                   >
                     <div className="flex items-center justify-between gap-2">
                       <p className="font-semibold">{course.title[language]}</p>

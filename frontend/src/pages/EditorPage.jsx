@@ -14,13 +14,13 @@ export default function EditorPage() {
       <div className="flex gap-2">
         <button
           onClick={() => actions.saveEditorCode(state.editorCode)}
-          className="rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white"
+          className="interactive-strong rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white"
         >
           {t(state.language, 'runCode')}
         </button>
         <button
           onClick={actions.resetEditorCode}
-          className="rounded-xl bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800"
+          className="interactive-chip rounded-xl border border-transparent bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800"
         >
           {t(state.language, 'resetCode')}
         </button>

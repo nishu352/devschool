@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import BottomBanner from '../components/dashboard/BottomBanner'
 import CourseCard from '../components/dashboard/CourseCard'
 import GlassCard from '../components/dashboard/GlassCard'
@@ -12,8 +13,10 @@ const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000'
 
 export default function HomePage() {
   const { state, stats } = useApp()
+  const navigate = useNavigate()
   const [dashboardData, setDashboardData] = useState(null)
 
+  const assessmentSummary = dashboardData?.assessmentSummary
   const accuracy = useMemo(() => {
     const values = Object.values(state.quizScores || {})
     if (values.length === 0) return 0
@@ -97,6 +100,37 @@ export default function HomePage() {
               >
                 Continue
               </button>
+            </GlassCard>
+
+            <GlassCard>
+              <p className="text-xs uppercase tracking-wide text-slate-400">Assessment Reports</p>
+              <h3 className="mt-1 text-xl font-semibold text-white">
+                {assessmentSummary?.count ?? 0} assessments completed
+              </h3>
+              <p className="mt-1 text-sm text-slate-300">
+                Avg score {assessmentSummary?.averageScore ?? 0}% • Pass rate {assessmentSummary?.passRate ?? 0}%
+              </p>
+              <div className="mt-3 flex flex-col gap-3">
+                <button
+                  type="button"
+                  onClick={() => navigate('/assessment-history')}
+                  className="rounded-xl bg-linear-to-r from-violet-500 to-blue-500 px-4 py-2 text-sm font-semibold text-white"
+                >
+                  View full history
+                </button>
+                {assessmentSummary?.latestAssessments?.length ? (
+                  <div className="space-y-2">
+                    {assessmentSummary.latestAssessments.slice(0, 3).map((item) => (
+                      <div key={item.id} className="rounded-xl border border-white/10 bg-white/5 p-3">
+                        <p className="text-sm font-medium text-slate-100">{item.title}</p>
+                        <p className="mt-1 text-xs text-slate-400">{item.detail}</p>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-400">No assessment history available yet.</p>
+                )}
+              </div>
             </GlassCard>
 
             <GlassCard>

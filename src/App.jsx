@@ -12,6 +12,7 @@ import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
 import ProjectsPage from './pages/ProjectsPage'
 import QuizzesPage from './pages/QuizzesPage'
+import AssessmentHistoryPage from './pages/AssessmentHistoryPage'
 import SearchPage from './pages/SearchPage'
 import SettingsPage from './pages/SettingsPage'
 import TutorPage from './pages/TutorPage'
@@ -31,6 +32,7 @@ function AuthRoutes() {
           <Route path="/editor" element={<EditorPage />} />
           <Route path="/exercises" element={<ExercisesPage />} />
           <Route path="/quizzes" element={<QuizzesPage />} />
+          <Route path="/assessment-history" element={<AssessmentHistoryPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/tutor" element={<TutorPage />} />

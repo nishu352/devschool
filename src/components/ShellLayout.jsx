@@ -20,6 +20,7 @@ const navItems = [
   { to: '/courses', label: 'Courses', icon: BookOpen },
   { to: '/exercises', label: 'Practice', icon: Dumbbell },
   { to: '/quizzes', label: 'Assessments', icon: ClipboardCheck },
+  { to: '/assessment-history', label: 'History', icon: NotebookPen },
   { to: '/tutor', label: 'AI Tutor', icon: Bot },
   { to: '/home', label: 'Leaderboard', icon: Trophy, placeholder: true },
   { to: '/home', label: 'Earn', icon: Coins, placeholder: true },

@@ -29,7 +29,7 @@ export default function SearchPage() {
             <Link
               key={`${result.courseId}-${result.chapterId}`}
               to={`/chapter/${result.courseId}/${result.chapterId}`}
-              className="block rounded-xl bg-slate-100 p-3 dark:bg-slate-800"
+              className="interactive-card block rounded-xl border border-transparent bg-slate-100 p-3 dark:bg-slate-800"
             >
               <p className="font-semibold">{result.chapterTitle}</p>
               <p className="text-sm text-slate-600 dark:text-slate-300">{result.courseTitle}</p>

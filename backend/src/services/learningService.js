@@ -90,6 +90,14 @@ function normalizeLevel(level) {
   return dailyPlanCatalog[candidate] ? candidate : 'beginner'
 }
 
+function inferDifficulty(index, total) {
+  if (total <= 1) return 'medium'
+  const progress = index / (total - 1)
+  if (progress < 0.34) return 'low'
+  if (progress < 0.67) return 'medium'
+  return 'high'
+}
+
 function loadQuizBankFromContent() {
   if (!fs.existsSync(contentRoot)) {
     return {}
@@ -101,10 +109,14 @@ function loadQuizBankFromContent() {
   for (const category of categories) {
     const courseId = category.name.toLowerCase()
     const folderPath = path.join(contentRoot, category.name)
-    const files = fs.readdirSync(folderPath).filter((name) => name.endsWith('.json'))
+    const files = fs
+      .readdirSync(folderPath)
+      .filter((name) => name.endsWith('.json'))
+      .sort((left, right) => left.localeCompare(right))
     const collected = []
 
-    for (const fileName of files) {
+    for (let fileIndex = 0; fileIndex < files.length; fileIndex += 1) {
+      const fileName = files[fileIndex]
       try {
         const filePath = path.join(folderPath, fileName)
         const raw = fs.readFileSync(filePath, 'utf8')
@@ -135,6 +147,7 @@ function loadQuizBankFromContent() {
               hi: question.explanation || '',
               hinglish: question.explanation || '',
             },
+            difficulty: inferDifficulty(fileIndex, files.length),
           })
         }
       } catch (error) {
@@ -165,7 +178,7 @@ export function getQuizCount(courseId) {
 
 export function getRandomQuiz({ courseId = 'html', count = 8 }) {
   const available = quizBank[courseId] || []
-  const safeCount = Math.min(Math.max(Number(count) || 8, 1), 20)
+  const safeCount = Math.min(Math.max(Number(count) || 8, 1), 100)
   return shuffle(available).slice(0, safeCount)
 }
 

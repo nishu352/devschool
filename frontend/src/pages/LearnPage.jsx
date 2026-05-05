@@ -41,7 +41,7 @@ export default function LearnPage() {
               </p>
               <button
                 onClick={() => actions.completeLesson(lesson.id)}
-                className="mt-3 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white"
+                className="interactive-strong mt-3 rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white"
               >
                 {done ? 'Completed' : 'Mark as Done'}
               </button>

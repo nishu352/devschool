@@ -18,6 +18,7 @@ app.use(cors({ origin: corsOrigin }))
 app.use(express.json())
 
 const dashboardTable = process.env.DASHBOARD_TABLE || 'dashboard_overview'
+const assessmentHistoryTable = process.env.ASSESSMENT_HISTORY_TABLE || 'assessment_history'
 const adminSupabase =
   process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY
     ? createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY, {
@@ -171,6 +172,7 @@ function buildDashboardOverview({
   accuracy = 0,
   completedChapters = 0,
   xp = 0,
+  assessmentSummary = null,
 } = {}) {
   const courseIds = Object.keys(quizBank)
   const courseSeed = `${name}:${studyPoints}:${streak}:${xp}`
@@ -215,6 +217,46 @@ function buildDashboardOverview({
       { id: 2, title: 'Points Builder', detail: `${studyPoints} points earned` },
       { id: 3, title: 'Skill Growth', detail: `${xp} XP collected` },
     ],
+    assessmentSummary:
+      assessmentSummary || {
+        count: 0,
+        averageScore: 0,
+        passRate: 0,
+        lastAssessment: null,
+        latestAssessments: [],
+      },
+  }
+}
+
+function buildAssessmentSummary(history = []) {
+  const assessments = Array.isArray(history) ? history : []
+  const total = assessments.length
+  const passed = assessments.filter((item) => item.passed).length
+  const averageScore = total
+    ? Math.round(assessments.reduce((sum, item) => sum + Number(item.score || 0), 0) / total)
+    : 0
+  const passRate = total ? Math.round((passed / total) * 100) : 0
+
+  return {
+    count: total,
+    averageScore,
+    passRate,
+    lastAssessment: assessments[0]
+      ? {
+          courseId: assessments[0].course_id,
+          score: Number(assessments[0].score || 0),
+          passed: Boolean(assessments[0].passed),
+          submittedAt: assessments[0].submitted_at,
+        }
+      : null,
+    latestAssessments: assessments.slice(0, 5).map((item, index) => ({
+      id: item.id || `${item.course_id}-${index}-${item.submitted_at}`,
+      title: `${String(item.course_id || 'course').toUpperCase()} Assessment`,
+      score: Number(item.score || 0),
+      passed: Boolean(item.passed),
+      detail: `${Number(item.score || 0)}% • ${Number(item.violations || 0)} violations`,
+      submittedAt: item.submitted_at,
+    })),
   }
 }
 
@@ -398,7 +440,22 @@ app.get('/api/dashboard/overview', async (req, res) => {
     .eq('user_id', userId)
     .maybeSingle()
 
-  if (error || !data) return res.json(fallback)
+  let assessmentSummary = null
+  if (!error) {
+    const { data: history, error: historyError } = await adminSupabase
+      .from(assessmentHistoryTable)
+      .select('*')
+      .eq('user_id', userId)
+      .order('submitted_at', { ascending: false })
+      .limit(20)
+    if (!historyError && Array.isArray(history)) {
+      assessmentSummary = buildAssessmentSummary(history)
+    }
+  }
+
+  if (error || !data) {
+    return res.json(assessmentSummary ? { ...fallback, assessmentSummary } : fallback)
+  }
 
   return res.json(
     buildDashboardOverview({
@@ -408,6 +465,7 @@ app.get('/api/dashboard/overview', async (req, res) => {
       accuracy: Number(data.accuracy ?? accuracy),
       completedChapters: Number(data.completed_chapters ?? completedChapters),
       xp: Number(data.xp ?? xp),
+      assessmentSummary,
     }),
   )
 })
@@ -433,6 +491,54 @@ app.post('/api/dashboard/overview/sync', async (req, res) => {
   if (error) {
     return res.status(500).json({ ok: false, persisted: false, error: error.message })
   }
+  return res.json({ ok: true, persisted: true })
+})
+
+app.get('/api/assessment/history', async (req, res) => {
+  const userId = String(req.query.userId || '').trim()
+  if (!adminSupabase || !userId) {
+    return res.status(400).json({ ok: false, history: [], summary: null, reason: 'missing_db_or_user' })
+  }
+
+  const { data, error } = await adminSupabase
+    .from(assessmentHistoryTable)
+    .select('*')
+    .eq('user_id', userId)
+    .order('submitted_at', { ascending: false })
+    .limit(50)
+
+  if (error) {
+    return res.status(500).json({ ok: false, history: [], summary: null, error: error.message })
+  }
+
+  return res.json({ ok: true, history: data || [], summary: buildAssessmentSummary(data) })
+})
+
+app.post('/api/assessment/history', async (req, res) => {
+  const userId = String(req.body?.userId || '').trim()
+  if (!adminSupabase || !userId) {
+    return res.status(400).json({ ok: false, persisted: false, reason: 'missing_db_or_user' })
+  }
+
+  const record = {
+    user_id: userId,
+    course_id: String(req.body?.courseId || 'unknown'),
+    raw_score: Number(req.body?.rawScore || 0),
+    score: Number(req.body?.score || 0),
+    passed: Boolean(req.body?.passed),
+    violations: Number(req.body?.violations || 0),
+    deductions: Number(req.body?.deductions || 0),
+    duration_seconds: Number(req.body?.durationSeconds || 0),
+    assessment_type: String(req.body?.assessmentType || 'timed'),
+    submitted_at: String(req.body?.submittedAt || new Date().toISOString()),
+    created_at: new Date().toISOString(),
+  }
+
+  const { error } = await adminSupabase.from(assessmentHistoryTable).insert(record)
+  if (error) {
+    return res.status(500).json({ ok: false, persisted: false, error: error.message })
+  }
+
   return res.json({ ok: true, persisted: true })
 })
 

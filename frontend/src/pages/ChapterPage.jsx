@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, Navigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { ArrowLeft, CheckCircle2, Menu, PanelRightClose, PanelRightOpen, Search } from 'lucide-react'
 import CourseLogo from '../components/CourseLogo'
 import { useApp } from '../context/AppContext'
@@ -8,6 +8,7 @@ import { t } from '../data/i18n'
 
 export default function ChapterPage() {
   const { state, actions } = useApp()
+  const navigate = useNavigate()
   const { courseId, chapterId } = useParams()
   const course = getCourseById(courseId)
   const lesson = getLesson(courseId, chapterId)
@@ -32,6 +33,12 @@ export default function ChapterPage() {
       window.removeEventListener('blur', onBlur)
     }
   }, [focusActive, actions])
+
+  useEffect(() => {
+    if (!course || !lesson) return
+    if (state.selectedCourseId === course.id && state.selectedChapterId === lesson.slug) return
+    actions.selectChapter(course.id, lesson.slug)
+  }, [actions, course, lesson, state.selectedCourseId, state.selectedChapterId])
 
   if (!course || !lesson) return <Navigate to="/courses" replace />
 
@@ -62,19 +69,11 @@ export default function ChapterPage() {
                 <button
                   type="button"
                   onClick={() => actions.cancelFocusMode(true)}
-                  className="inline-flex items-center gap-1 rounded-lg border border-red-300 px-2 py-1 text-xs font-medium text-red-700 dark:border-red-800 dark:text-red-300"
+                  className="interactive-chip inline-flex items-center gap-1 rounded-lg border border-red-300 px-2 py-1 text-xs font-medium text-red-700 dark:border-red-800 dark:text-red-300"
                 >
                   {t(language, 'exitFocusMode')}
                 </button>
-              ) : (
-                <Link
-                  to="/courses"
-                  className="inline-flex items-center gap-1 rounded-lg border border-slate-300 px-2 py-1 text-xs font-medium dark:border-slate-700"
-                >
-                  <ArrowLeft size={14} />
-                  {t(language, 'chapterBack')}
-                </Link>
-              )}
+              ) : null}
               </div>
               <p className="text-xs text-slate-500 flex items-center gap-2">
                 <CourseLogo courseId={course.id} size={16} />
@@ -87,23 +86,26 @@ export default function ChapterPage() {
             </div>
             <div className="flex items-center gap-2 md:hidden">
               <button
+                type="button"
                 onClick={() => setShowMobileNav((prev) => !prev)}
-                className="rounded-lg border border-slate-300 p-2 dark:border-slate-700"
+                className="interactive-chip rounded-lg border border-slate-300 p-2 dark:border-slate-700"
                 aria-label="Toggle navigation drawer"
               >
                 <Menu size={16} />
               </button>
               <button
+                type="button"
                 onClick={() => setShowMobileChapters((prev) => !prev)}
-                className="rounded-lg border border-slate-300 p-2 dark:border-slate-700"
+                className="interactive-chip rounded-lg border border-slate-300 p-2 dark:border-slate-700"
                 aria-label="Toggle chapters panel"
               >
                 {showMobileChapters ? <PanelRightClose size={16} /> : <PanelRightOpen size={16} />}
               </button>
             </div>
             <button
+              type="button"
               onClick={() => setIsPanelMinimized((prev) => !prev)}
-              className="hidden rounded-lg border border-slate-300 p-2 dark:border-slate-700 md:inline-flex"
+              className="interactive-chip hidden rounded-lg border border-slate-300 p-2 dark:border-slate-700 md:inline-flex"
               aria-label={isPanelMinimized ? 'Expand chapter panel' : 'Minimize chapter panel'}
               title={isPanelMinimized ? 'Expand panel' : 'Minimize panel'}
             >
@@ -115,10 +117,10 @@ export default function ChapterPage() {
         {showMobileNav ? (
           <div className="border-b border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-slate-950 md:hidden">
             <div className="grid grid-cols-2 gap-2">
-              <Link to="/home" className={`rounded-lg bg-white px-3 py-2 text-sm dark:bg-slate-900 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>{t(language, 'home')}</Link>
-              <Link to="/courses" className={`rounded-lg bg-white px-3 py-2 text-sm dark:bg-slate-900 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>{t(language, 'courses')}</Link>
-              <Link to="/profile" className={`rounded-lg bg-white px-3 py-2 text-sm dark:bg-slate-900 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>{t(language, 'profile')}</Link>
-              <Link to="/settings" className={`rounded-lg bg-white px-3 py-2 text-sm dark:bg-slate-900 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>{t(language, 'settings')}</Link>
+              <Link to="/home" className="interactive-chip rounded-lg border border-transparent bg-white px-3 py-2 text-sm dark:bg-slate-900">{t(language, 'home')}</Link>
+              <Link to="/courses" className="interactive-chip rounded-lg border border-transparent bg-white px-3 py-2 text-sm dark:bg-slate-900">{t(language, 'courses')}</Link>
+              <Link to="/profile" className="interactive-chip rounded-lg border border-transparent bg-white px-3 py-2 text-sm dark:bg-slate-900">{t(language, 'profile')}</Link>
+              <Link to="/settings" className="interactive-chip rounded-lg border border-transparent bg-white px-3 py-2 text-sm dark:bg-slate-900">{t(language, 'settings')}</Link>
             </div>
           </div>
         ) : null}
@@ -141,22 +143,19 @@ export default function ChapterPage() {
               {filteredChapters.map((item) => {
                 const done = Boolean(state.completedChapters[`${course.id}:${item.slug}`])
                 const active = item.slug === lesson.slug
+                const chapterRowClassName = `flex items-center justify-between rounded-xl px-3 py-2 text-sm ${
+                  active ? 'bg-blue-600 text-white' : 'interactive-list-row border border-transparent bg-white dark:bg-slate-900'
+                } ${focusActive ? 'opacity-80' : ''}`
                 return (
-                  <div
-                    key={item.slug}
-                    className={`flex items-center justify-between rounded-xl px-3 py-2 text-sm ${
-                      active ? 'bg-blue-600 text-white' : 'bg-white dark:bg-slate-900'
-                    } ${focusActive ? 'cursor-not-allowed opacity-50' : ''}`}
-                  >
-                    {focusActive ? (
+                    <Link
+                      key={item.slug}
+                      to={`/chapter/${course.id}/${item.slug}`}
+                      onClick={() => setShowMobileChapters(false)}
+                      className={chapterRowClassName}
+                    >
                       <span className="pr-2">{item.chapterNumber}. {item.title}</span>
-                    ) : (
-                      <Link to={`/chapter/${course.id}/${item.slug}`} onClick={() => setShowMobileChapters(false)} className="block w-full pr-2">
-                        {item.chapterNumber}. {item.title}
-                      </Link>
-                    )}
-                    {done ? <CheckCircle2 size={16} className={active ? 'text-white' : 'text-emerald-500'} /> : null}
-                  </div>
+                      {done ? <CheckCircle2 size={16} className={active ? 'text-white' : 'text-emerald-500'} /> : null}
+                    </Link>
                 )
               })}
             </div>
@@ -210,31 +209,33 @@ export default function ChapterPage() {
 
             <div className="flex flex-wrap gap-2 pb-8">
               <button
+                type="button"
                 onClick={() => actions.startFocusMode(course.id, lesson.slug)}
                 disabled={focusActive}
-                className="rounded-xl border border-amber-300 bg-amber-100 px-4 py-2 text-sm font-semibold text-amber-900 disabled:opacity-60 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-100"
+                className="interactive-strong rounded-xl border border-amber-300 bg-amber-100 px-4 py-2 text-sm font-semibold text-amber-900 disabled:opacity-60 dark:border-amber-700 dark:bg-amber-950 dark:text-amber-100"
               >
                 {focusActive ? `${t(language, 'focusModeActive')} (${Math.floor(state.focusMode.timerRemaining / 60)}:${String(state.focusMode.timerRemaining % 60).padStart(2, '0')})` : t(language, 'startFocusMode')}
               </button>
               <button
+                type="button"
                 onClick={() => actions.completeChapter(course.id, lesson.slug)}
-                className="rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white"
+                className="interactive-strong rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white"
               >
                 {isDone ? t(language, 'chapterCompleted') : t(language, 'chapterMarkComplete')}
               </button>
-              <Link to="/exercises" className={`rounded-xl bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>
+              <Link to="/exercises" className="interactive-chip rounded-xl border border-transparent bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800">
                 {t(language, 'goToExercises')}
               </Link>
-              <Link to="/quizzes" className={`rounded-xl bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>
+              <Link to="/quizzes" className="interactive-chip rounded-xl border border-transparent bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800">
                 {t(language, 'takeQuiz')}
               </Link>
               {adjacent.prev ? (
-                <Link to={`/chapter/${course.id}/${adjacent.prev.slug}`} className={`rounded-xl bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>
+                <Link to={`/chapter/${course.id}/${adjacent.prev.slug}`} className="interactive-chip rounded-xl border border-transparent bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800">
                   {t(language, 'previous')}
                 </Link>
               ) : null}
               {adjacent.next ? (
-                <Link to={`/chapter/${course.id}/${adjacent.next.slug}`} className={`rounded-xl bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800 ${focusActive ? 'pointer-events-none opacity-40' : ''}`}>
+                <Link to={`/chapter/${course.id}/${adjacent.next.slug}`} className="interactive-chip rounded-xl border border-transparent bg-slate-200 px-4 py-2 text-sm font-semibold dark:bg-slate-800">
                   {t(language, 'next')}
                 </Link>
               ) : null}
@@ -248,8 +249,9 @@ export default function ChapterPage() {
           <div className="flex items-center justify-between">
             <p className="text-xs uppercase text-slate-500">{t(language, 'course')}</p>
             <button
+              type="button"
               onClick={() => setIsPanelMinimized((prev) => !prev)}
-              className="rounded-lg border border-slate-300 p-1 dark:border-slate-700"
+              className="interactive-chip rounded-lg border border-slate-300 p-1 dark:border-slate-700"
               aria-label={isPanelMinimized ? 'Expand chapter panel' : 'Minimize chapter panel'}
               title={isPanelMinimized ? 'Expand panel' : 'Minimize panel'}
             >
@@ -290,22 +292,18 @@ export default function ChapterPage() {
                   {filteredChapters.map((item) => {
                     const done = Boolean(state.completedChapters[`${course.id}:${item.slug}`])
                     const active = item.slug === lesson.slug
+                    const chapterRowClassName = `flex items-center justify-between rounded-xl px-3 py-2 text-sm ${
+                      active ? 'bg-blue-600 text-white' : 'interactive-list-row border border-transparent bg-white dark:bg-slate-900'
+                    } ${focusActive ? 'opacity-80' : ''}`
                     return (
-                      <div
-                        key={item.slug}
-                        className={`flex items-center justify-between rounded-xl px-3 py-2 text-sm ${
-                          active ? 'bg-blue-600 text-white' : 'bg-white dark:bg-slate-900'
-                        } ${focusActive ? 'cursor-not-allowed opacity-50' : ''}`}
-                      >
-                        {focusActive ? (
+                        <Link
+                          key={item.slug}
+                          to={`/chapter/${course.id}/${item.slug}`}
+                          className={chapterRowClassName}
+                        >
                           <span className="pr-2">{item.chapterNumber}. {item.title}</span>
-                        ) : (
-                          <Link to={`/chapter/${course.id}/${item.slug}`} className="block w-full pr-2">
-                            {item.chapterNumber}. {item.title}
-                          </Link>
-                        )}
-                        {done ? <CheckCircle2 size={16} className={active ? 'text-white' : 'text-emerald-500'} /> : null}
-                      </div>
+                          {done ? <CheckCircle2 size={16} className={active ? 'text-white' : 'text-emerald-500'} /> : null}
+                        </Link>
                     )
                   })}
                 </div>
@@ -326,4 +324,3 @@ function ContentCard({ title, value }) {
     </article>
   )
 }
-

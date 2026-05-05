@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 2,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 12,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 17,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 25,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 26,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 28,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 31,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 33,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 34,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 35,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 36,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 37,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 38,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 40,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 41,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 43,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 45,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 47,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 48,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 51,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 52,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 55,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 57,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 58,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 59,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 60,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 62,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 64,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 67,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 68,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 69,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 73,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 76,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 77,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 78,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 79,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 80,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 81,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 82,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 83,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 84,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 86,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 88,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 89,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 90,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 91,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 92,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 94,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 95,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 96,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 97,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 98,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 99,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 104,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 105,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 106,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 107,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 108,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 109,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 110,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 111,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 112,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 113,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 114,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 115,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 120,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 122,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 123,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 124,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 127,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 128,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 129,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 130,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 131,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 132,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 133,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 136,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 139,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 140,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 141,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 142,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 143,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 144,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 145,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 146,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 147,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 148,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 151,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 152,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 153,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 155,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 156,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 157,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 158,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 159,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 161,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 162,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 163,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 164,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 165,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 166,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 167,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 168,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 169,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 170,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 171,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 172,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 173,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 174,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 175,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 176,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 177,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 178,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 179,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 180,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 182,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 183,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 184,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 185,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 186,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 187,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 188,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 189,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 190,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 191,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 192,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 193,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 194,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 195,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 196,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 197,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 198,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 199,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 200,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 201,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 202,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 203,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 204,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 205,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 206,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 207,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 208,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 209,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 210,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 212,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 213,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 214,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 215,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 216,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 217,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 218,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 219,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 220,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 221,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 222,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 223,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 224,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 225,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 226,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 227,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 228,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 229,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 230,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 231,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 232,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 233,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 234,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 235,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 236,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 237,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 238,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 239,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 240,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 241,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 242,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 243,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 244,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 245,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 246,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 247,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 248,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 249,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 250,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 251,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 252,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 253,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 254,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 256,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 257,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 258,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 259,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 260,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 261,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 262,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 263,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 264,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 265,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 266,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 267,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 268,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 269,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 270,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 271,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 272,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 273,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 274,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 275,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 276,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 277,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 278,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 279,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 280,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 281,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 282,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 283,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 284,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 285,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 286,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 287,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 288,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 289,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 290,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 291,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 292,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 293,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 294,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 295,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 296,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 297,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 298,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 299,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 300,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 301,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 302,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 303,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 304,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 305,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 306,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 307,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 308,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 309,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 310,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 311,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 312,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 313,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 314,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 315,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 316,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 317,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 318,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 319,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 320,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 321,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 322,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 323,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 324,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 325,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 326,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 327,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 328,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 330,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 331,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 332,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 333,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 334,
+    "question": "What is thread?",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 335,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 336,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 337,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 338,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 339,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 340,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 341,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 342,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 343,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 344,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 345,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 346,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 347,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 348,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 349,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 350,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 351,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 352,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 353,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 354,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 355,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 356,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 357,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 358,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 359,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 360,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 361,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 362,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 363,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 364,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 365,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 366,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 367,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 368,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 369,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 370,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 371,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 372,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 373,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 374,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 375,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 376,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 377,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 378,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 379,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 380,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 381,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 382,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 383,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 384,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 385,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 386,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 387,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 388,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 389,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 390,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 391,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 392,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 393,
+    "question": "In a Java project, what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 394,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 395,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 396,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 397,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 398,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 399,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "hard"
+  },
+  {
+    "id": 400,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 401,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 402,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 403,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 404,
+    "question": "Fix the issue related to what is encapsulation?.",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 405,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 406,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 407,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 408,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "medium"
+  },
+  {
+    "id": 409,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 410,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 411,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "easy"
+  },
+  {
+    "id": 412,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 413,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 414,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 415,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 416,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 417,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 418,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 419,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 420,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 421,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 422,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 423,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 424,
+    "question": "What is the best practice regarding what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 425,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 426,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 427,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 428,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 429,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "easy"
+  },
+  {
+    "id": 430,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 431,
+    "question": "Fix the issue related to what is arraylist?.",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 432,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 433,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 434,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 435,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 436,
+    "question": "In a Java project, what is thread??",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 437,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 438,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 439,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 440,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 441,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 442,
+    "question": "Fix the issue related to what is exception?.",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 443,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 444,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 445,
+    "question": "What is encapsulation?",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 446,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 447,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 448,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 449,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 450,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 451,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 452,
+    "question": "Fix the issue related to what is polymorphism?.",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 453,
+    "question": "In a Java project, what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 454,
+    "question": "What is the best practice regarding what is exception??",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "medium"
+  },
+  {
+    "id": 455,
+    "question": "What is the best practice regarding what is garbage collection??",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 456,
+    "question": "Fix the issue related to what is jvm?.",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 457,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 458,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 459,
+    "question": "What is the best practice regarding what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 460,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 461,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 462,
+    "question": "Fix the issue related to what is garbage collection?.",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 463,
+    "question": "In a Java project, what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "id": 464,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 465,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 466,
+    "question": "What is exception?",
+    "options": [
+      "Runtime error",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Exception",
+    "difficulty": "hard"
+  },
+  {
+    "id": 467,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 468,
+    "question": "What is ArrayList?",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 469,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 470,
+    "question": "Fix the issue related to what is interface?.",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 471,
+    "question": "In a Java project, what is jvm??",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 472,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 473,
+    "question": "What is JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Joint Virtual Model",
+      "Java Verified Machine"
+    ],
+    "answer": 0,
+    "category": "Basics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 474,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 475,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 476,
+    "question": "What is polymorphism?",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 477,
+    "question": "What is the best practice regarding what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 478,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 479,
+    "question": "What is abstraction?",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 480,
+    "question": "What is the best practice regarding what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 481,
+    "question": "In a Java project, what is polymorphism??",
+    "options": [
+      "Many forms",
+      "Single form",
+      "Loop",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 482,
+    "question": "In a Java project, what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "easy"
+  },
+  {
+    "id": 483,
+    "question": "What is the best practice regarding what is interface??",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "id": 484,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 485,
+    "question": "What is the best practice regarding what is arraylist??",
+    "options": [
+      "Dynamic array",
+      "Fixed array",
+      "Thread",
+      "Loop"
+    ],
+    "answer": 0,
+    "category": "Collections",
+    "difficulty": "hard"
+  },
+  {
+    "id": 486,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "medium"
+  },
+  {
+    "id": 487,
+    "question": "In a Java project, what is encapsulation??",
+    "options": [
+      "Data hiding",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 488,
+    "question": "What is garbage collection?",
+    "options": [
+      "Memory cleanup",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "JVM",
+    "difficulty": "hard"
+  },
+  {
+    "id": 489,
+    "question": "What is the best practice regarding what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 490,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 491,
+    "question": "Fix the issue related to what is inheritance?.",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "id": 492,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 493,
+    "question": "In a Java project, what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 494,
+    "question": "Fix the issue related to what is thread?.",
+    "options": [
+      "Lightweight process",
+      "Heavy process",
+      "Loop",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Multithreading",
+    "difficulty": "medium"
+  },
+  {
+    "id": 495,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "id": 496,
+    "question": "In a Java project, what is abstraction??",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 497,
+    "question": "Fix the issue related to what is abstraction?.",
+    "options": [
+      "Hide implementation",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 498,
+    "question": "What is the best practice regarding what is inheritance??",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "id": 499,
+    "question": "What is interface?",
+    "options": [
+      "Abstract contract",
+      "Loop",
+      "Thread",
+      "Object"
+    ],
+    "answer": 0,
+    "category": "Advanced",
+    "difficulty": "medium"
+  },
+  {
+    "id": 500,
+    "question": "What is inheritance?",
+    "options": [
+      "Reuse properties",
+      "Loop",
+      "Exception",
+      "Thread"
+    ],
+    "answer": 0,
+    "category": "OOP",
+    "difficulty": "easy"
+  }
+]

@@ -94,7 +94,7 @@ function Stat({ icon: Icon, label, value }) {
 
 function QuickButton({ to, text }) {
   return (
-    <Link to={to} className="rounded-xl bg-white px-4 py-3 text-center text-sm font-medium dark:bg-slate-900">
+    <Link to={to} className="interactive-card rounded-xl border border-transparent bg-white px-4 py-3 text-center text-sm font-medium dark:bg-slate-900">
       {text}
     </Link>
   )

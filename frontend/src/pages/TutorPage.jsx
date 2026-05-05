@@ -44,7 +44,7 @@ export default function TutorPage() {
       />
       <button
         onClick={ask}
-        className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white"
+        className="interactive-strong rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white"
       >
         {loading ? t(language, 'thinking') : t(language, 'askTutor')}
       </button>

@@ -79,6 +79,14 @@ export function getAdjacentLessons(courseId, lessonSlug) {
   }
 }
 
+function inferDifficulty(index, total) {
+  if (total <= 1) return 'medium'
+  const progress = index / (total - 1)
+  if (progress < 0.34) return 'low'
+  if (progress < 0.67) return 'medium'
+  return 'high'
+}
+
 export function searchLessons(query, language = 'english') {
   const q = query.trim().toLowerCase()
   if (!q) return []
@@ -102,13 +110,14 @@ export function searchLessons(query, language = 'english') {
 export function getCourseQuizzes() {
   const quizzes = {}
   for (const course of COURSES) {
-    quizzes[course.id] = course.chapters.slice(0, 8).flatMap((lesson) =>
+    quizzes[course.id] = course.chapters.flatMap((lesson, lessonIndex, lessons) =>
       (lesson.quiz || []).map((q, index) => ({
         id: `${lesson.id}-q${index + 1}`,
         question: { en: q.question, hi: q.question, hinglish: q.question },
         options: q.options,
         answer: q.answer,
         explanation: { en: q.explanation, hi: q.explanation, hinglish: q.explanation },
+        difficulty: inferDifficulty(lessonIndex, lessons.length),
       })),
     )
   }

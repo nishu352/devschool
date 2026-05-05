@@ -28,7 +28,7 @@ export default function ProjectsPage() {
               <button
                 disabled={!unlocked}
                 onClick={() => actions.completeProject(project)}
-                className="rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-400"
+                className="interactive-strong rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:bg-slate-400"
               >
                 {done ? t(language, 'chapterCompleted') : t(language, 'complete')}
               </button>

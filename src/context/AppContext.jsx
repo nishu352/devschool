@@ -3,6 +3,7 @@ import { createContext, useContext, useEffect, useLayoutEffect, useMemo, useRef,
 import { getCourseQuizzes, getCourses } from '../content/lessonStore'
 import { isSupabaseConfigured, supabase } from '../lib/supabase'
 
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000'
 const AppContext = createContext(null)
 
 const STORAGE_KEY_LEGACY = 'devschool-state'
@@ -72,6 +73,7 @@ const defaultState = {
   dailyChallenge: dailyChallenge.en,
   studyPoints: 0,
   xp: 0,
+  assessmentHistory: [],
   focusMode: {
     sessionActive: false,
     courseId: null,
@@ -548,8 +550,26 @@ export function AppProvider({ children }) {
         })
       },
       submitAssessment(rawScore) {
+        let record = null
         setState((prev) => {
           const net = Math.max(0, Number(rawScore || 0) - prev.assessmentMode.deductions)
+          const courseId = prev.assessmentMode.courseId || prev.selectedCourseId || 'unknown'
+          const durationSeconds = Math.max(
+            0,
+            defaultAssessmentDurationSeconds - Number(prev.assessmentMode.timerRemaining || 0),
+          )
+          record = {
+            id: `${courseId}-${Date.now()}`,
+            courseId,
+            rawScore: Number(rawScore || 0),
+            score: net,
+            passed: net >= 60,
+            violations: prev.assessmentMode.violations,
+            deductions: prev.assessmentMode.deductions,
+            durationSeconds,
+            submittedAt: new Date().toISOString(),
+          }
+
           return {
             ...prev,
             assessmentMode: {
@@ -561,8 +581,29 @@ export function AppProvider({ children }) {
             },
             xp: prev.xp + Math.round(net / 5),
             studyPoints: net >= 60 ? prev.studyPoints + 5 : prev.studyPoints,
+            assessmentHistory: [record, ...(prev.assessmentHistory || [])].slice(0, 20),
           }
         })
+
+        const userId = session?.user?.id
+        if (userId && record) {
+          void fetch(`${API_BASE}/api/assessment/history`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              userId,
+              courseId: record.courseId,
+              rawScore: record.rawScore,
+              score: record.score,
+              passed: record.passed,
+              violations: record.violations,
+              deductions: record.deductions,
+              durationSeconds: record.durationSeconds,
+              assessmentType: 'timed',
+              submittedAt: record.submittedAt,
+            }),
+          }).catch(() => null)
+        }
       },
       clearAssessment() {
         setState((prev) => ({
@@ -598,7 +639,7 @@ export function AppProvider({ children }) {
         setNotice(null)
       },
     }),
-    [],
+    [session, guestLogin],
   )
 
   const totalChapters = courses.reduce((sum, course) => sum + course.chapters.length, 0) || 1
